@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Valsad",
+    "gaugeStationName": "Vapi",
+    "stationId": "031-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Damanganga",
+    "state": "Gujarat",
+    "waterLevelThresholds": {
+      "warningLevel": 18.2,
+      "dangerLevel": 19.2,
+      "extremeDangerLevel": 23.76
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

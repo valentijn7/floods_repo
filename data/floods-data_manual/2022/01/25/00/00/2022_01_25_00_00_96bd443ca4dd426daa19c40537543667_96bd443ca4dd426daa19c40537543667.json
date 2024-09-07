@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Karur",
+    "gaugeStationName": "Nallammaranpatty",
+    "stationId": "014-srdcbe",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Cauvery/Amaravathi",
+    "state": "Tamilnadu",
+    "waterLevelThresholds": {
+      "warningLevel": 134.12,
+      "dangerLevel": 135.12,
+      "extremeDangerLevel": 138.5
+    }
+  },
+  "issueTimestampSeconds": "1643070289",
+  "expirationTimestampSeconds": "1643243089",
+  "hasFlooding": false
+}

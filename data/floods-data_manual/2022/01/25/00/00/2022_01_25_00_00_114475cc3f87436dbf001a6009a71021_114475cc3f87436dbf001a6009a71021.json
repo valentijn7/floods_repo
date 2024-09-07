@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "EAST GODAVARI",
+    "gaugeStationName": "Kunavaram",
+    "stationId": "024-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 37.74,
+      "dangerLevel": 39.24,
+      "extremeDangerLevel": 51.3
+    }
+  },
+  "issueTimestampSeconds": "1643070295",
+  "expirationTimestampSeconds": "1643243095",
+  "hasFlooding": false
+}

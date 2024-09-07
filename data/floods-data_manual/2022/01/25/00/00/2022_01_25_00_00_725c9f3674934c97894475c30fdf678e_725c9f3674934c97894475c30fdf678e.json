@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "CACHAR",
+    "gaugeStationName": "Anna Purna Ghat",
+    "stationId": "010-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Barak",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 18.83,
+      "dangerLevel": 19.83,
+      "extremeDangerLevel": 21.84
+    }
+  },
+  "issueTimestampSeconds": "1643070285",
+  "expirationTimestampSeconds": "1643243085",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DIBRUGARH",
+    "gaugeStationName": "Dibrugarh",
+    "stationId": "010-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 104.7,
+      "dangerLevel": 105.7,
+      "extremeDangerLevel": 106.48
+    }
+  },
+  "issueTimestampSeconds": "1643070353",
+  "expirationTimestampSeconds": "1643243153",
+  "hasFlooding": false
+}

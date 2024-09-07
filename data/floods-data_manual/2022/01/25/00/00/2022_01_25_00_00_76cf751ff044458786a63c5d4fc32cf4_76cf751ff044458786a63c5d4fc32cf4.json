@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MUZAFFARPUR",
+    "gaugeStationName": "Rewaghat",
+    "stationId": "009-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 53.41,
+      "dangerLevel": 54.41,
+      "extremeDangerLevel": 55.46
+    }
+  },
+  "issueTimestampSeconds": "1643070375",
+  "expirationTimestampSeconds": "1643243175",
+  "hasFlooding": false
+}

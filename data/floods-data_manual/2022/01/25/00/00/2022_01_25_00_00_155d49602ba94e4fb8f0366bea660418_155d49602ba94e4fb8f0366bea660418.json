@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Ahmadnagar",
+    "gaugeStationName": "Kopergaon",
+    "stationId": "006-UGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 490.9,
+      "dangerLevel": 493.68,
+      "extremeDangerLevel": 499.17
+    }
+  },
+  "issueTimestampSeconds": "1643070327",
+  "expirationTimestampSeconds": "1643243127",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ERNAKULAM",
+    "gaugeStationName": "Kalampur",
+    "stationId": "013-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Muvattupuzha",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 12.64,
+      "dangerLevel": 13.64,
+      "extremeDangerLevel": 17.47
+    }
+  },
+  "issueTimestampSeconds": "1643070284",
+  "expirationTimestampSeconds": "1643243084",
+  "hasFlooding": false
+}

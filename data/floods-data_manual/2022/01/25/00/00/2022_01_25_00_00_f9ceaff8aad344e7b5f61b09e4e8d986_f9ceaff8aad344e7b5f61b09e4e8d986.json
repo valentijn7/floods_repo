@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MALAPPURAM",
+    "gaugeStationName": "Kuniyil",
+    "stationId": "005-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Chaliyar",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 10.85,
+      "dangerLevel": 11.85,
+      "extremeDangerLevel": 12.14
+    }
+  },
+  "issueTimestampSeconds": "1643070285",
+  "expirationTimestampSeconds": "1643243085",
+  "hasFlooding": false
+}

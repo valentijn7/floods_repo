@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Kheda",
+    "gaugeStationName": "Wanakbori",
+    "stationId": "008-MAHGAND",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Mahi",
+    "state": "Gujarat",
+    "waterLevelThresholds": {
+      "warningLevel": 71.93,
+      "dangerLevel": 74.98,
+      "extremeDangerLevel": 76.1
+    }
+  },
+  "issueTimestampSeconds": "1643070318",
+  "expirationTimestampSeconds": "1643243118",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARAMULA",
+    "gaugeStationName": "Safapora",
+    "stationId": "006-chejmu",
+    "publisherName": "IBO, CWC, Chandigarh",
+    "river": "Jhelum",
+    "state": "Jammu & Kashmir",
+    "waterLevelThresholds": {
+      "warningLevel": 1580.0,
+      "dangerLevel": 1580.8,
+      "extremeDangerLevel": 1582.1
+    }
+  },
+  "issueTimestampSeconds": "1643070279",
+  "expirationTimestampSeconds": "1643243079",
+  "hasFlooding": false
+}

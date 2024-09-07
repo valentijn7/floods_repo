@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SRINAGAR",
+    "gaugeStationName": "Ram Munshi Bagh",
+    "stationId": "005-jhelum",
+    "publisherName": "IBO, CWC, Chandigarh",
+    "river": "Jhelum",
+    "state": "Jammu & Kashmir",
+    "waterLevelThresholds": {
+      "warningLevel": 1585.53,
+      "dangerLevel": 1586.45,
+      "extremeDangerLevel": 1588.99
+    }
+  },
+  "issueTimestampSeconds": "1643070287",
+  "expirationTimestampSeconds": "1643243087",
+  "hasFlooding": false
+}

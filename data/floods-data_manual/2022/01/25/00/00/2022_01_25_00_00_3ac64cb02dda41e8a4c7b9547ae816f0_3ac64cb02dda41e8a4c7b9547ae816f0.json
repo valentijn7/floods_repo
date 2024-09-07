@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PATHANAMTHITTA",
+    "gaugeStationName": "Malakkara",
+    "stationId": "018-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Pamba",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 6.0,
+      "dangerLevel": 7.0,
+      "extremeDangerLevel": 9.58
+    }
+  },
+  "issueTimestampSeconds": "1643070322",
+  "expirationTimestampSeconds": "1643243122",
+  "hasFlooding": false
+}

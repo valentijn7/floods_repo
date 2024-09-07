@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BAHRAICH",
+    "gaugeStationName": "Ghaighat",
+    "stationId": "002-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Sarju(Babai)",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 129.54,
+      "dangerLevel": 130.54,
+      "extremeDangerLevel": 132.45
+    }
+  },
+  "issueTimestampSeconds": "1643070364",
+  "expirationTimestampSeconds": "1643243164",
+  "hasFlooding": false
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GUAJAR\u00c1-MIRIM-RO",
+    "gaugeStationName": "GUAJAR\u00c1-MIRIM",
+    "stationId": "15250000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MAMOR\u00c9",
+    "waterLevelThresholds": {
+      "warningLevel": 10.2,
+      "dangerLevel": 11.1
+    }
+  },
+  "issueTimestampSeconds": "1643070323",
+  "expirationTimestampSeconds": "1643243123",
+  "hasFlooding": false
+}

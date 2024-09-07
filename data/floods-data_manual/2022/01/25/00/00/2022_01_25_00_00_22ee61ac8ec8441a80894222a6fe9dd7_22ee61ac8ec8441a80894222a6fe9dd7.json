@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Noonkhawa",
+    "stationId": "SW45",
+    "river": "Brahmaputra",
+    "waterLevelThresholds": {
+      "warningLevel": 26.0,
+      "dangerLevel": 26.5,
+      "extremeDangerLevel": 27.5
+    }
+  },
+  "issueTimestampSeconds": "1643070311",
+  "expirationTimestampSeconds": "1643243111",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Badarganj",
+    "stationId": "SW62",
+    "river": "Jamuneswari",
+    "waterLevelThresholds": {
+      "warningLevel": 31.650002,
+      "dangerLevel": 32.15,
+      "extremeDangerLevel": 33.15
+    }
+  },
+  "issueTimestampSeconds": "1643070260",
+  "expirationTimestampSeconds": "1643243060",
+  "hasFlooding": false
+}

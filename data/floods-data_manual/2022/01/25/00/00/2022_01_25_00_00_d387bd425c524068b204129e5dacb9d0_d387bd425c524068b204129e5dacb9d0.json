@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Bandarban",
+    "stationId": "SW247",
+    "river": "Sangu",
+    "waterLevelThresholds": {
+      "warningLevel": 14.75,
+      "dangerLevel": 15.25,
+      "extremeDangerLevel": 16.25
+    }
+  },
+  "issueTimestampSeconds": "1643070300",
+  "expirationTimestampSeconds": "1643243100",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

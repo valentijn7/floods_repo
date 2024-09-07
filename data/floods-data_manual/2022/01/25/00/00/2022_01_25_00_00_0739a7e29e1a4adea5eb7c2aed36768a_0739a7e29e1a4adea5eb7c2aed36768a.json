@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DHUBRI",
+    "gaugeStationName": "Golokganj",
+    "stationId": "008-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Sonkosh",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 28.94,
+      "dangerLevel": 29.94,
+      "extremeDangerLevel": 30.95
+    }
+  },
+  "issueTimestampSeconds": "1643070311",
+  "expirationTimestampSeconds": "1643243111",
+  "hasFlooding": false
+}

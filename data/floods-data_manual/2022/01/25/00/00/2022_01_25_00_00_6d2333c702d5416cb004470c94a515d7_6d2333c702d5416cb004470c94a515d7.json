@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Raigad",
+    "gaugeStationName": "Mahad",
+    "stationId": "017-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Savitri",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 10.0,
+      "dangerLevel": 11.0,
+      "extremeDangerLevel": 11.93
+    }
+  },
+  "issueTimestampSeconds": "1643070307",
+  "expirationTimestampSeconds": "1643243107",
+  "hasFlooding": false
+}

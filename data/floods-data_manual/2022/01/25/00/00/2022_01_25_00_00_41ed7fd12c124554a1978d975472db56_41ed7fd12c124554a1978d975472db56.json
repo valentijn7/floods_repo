@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Uttarkashi",
+    "gaugeStationName": "Uttarkashi",
+    "stationId": "008-HGDDDN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Bhagirath",
+    "state": "Uttarakhand",
+    "waterLevelThresholds": {
+      "warningLevel": 1122.0,
+      "dangerLevel": 1123.0,
+      "extremeDangerLevel": 1124.13
+    }
+  },
+  "issueTimestampSeconds": "1643070260",
+  "expirationTimestampSeconds": "1643243060",
+  "hasFlooding": false
+}

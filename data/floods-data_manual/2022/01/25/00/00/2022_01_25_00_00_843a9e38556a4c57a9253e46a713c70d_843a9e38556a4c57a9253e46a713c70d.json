@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ANANTNAG",
+    "gaugeStationName": "Sangam",
+    "stationId": "002-jhelum",
+    "publisherName": "IBO, CWC, Chandigarh",
+    "river": "Jhelum",
+    "state": "Jammu & Kashmir",
+    "waterLevelThresholds": {
+      "warningLevel": 1590.3,
+      "dangerLevel": 1592.0,
+      "extremeDangerLevel": 1595.0
+    }
+  },
+  "issueTimestampSeconds": "1643070374",
+  "expirationTimestampSeconds": "1643243174",
+  "hasFlooding": false
+}

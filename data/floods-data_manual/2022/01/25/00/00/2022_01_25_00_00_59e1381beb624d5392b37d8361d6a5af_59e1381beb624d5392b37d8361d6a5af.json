@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Chuadanga",
+    "stationId": "SW207",
+    "river": "Mathabhanga",
+    "waterLevelThresholds": {
+      "warningLevel": 11.55,
+      "dangerLevel": 12.05,
+      "extremeDangerLevel": 13.05
+    }
+  },
+  "issueTimestampSeconds": "1643070359",
+  "expirationTimestampSeconds": "1643243159",
+  "hasFlooding": false
+}

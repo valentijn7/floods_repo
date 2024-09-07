@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GANJAM",
+    "gaugeStationName": "Purushottampu",
+    "stationId": "029-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Rushikulya",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 15.83,
+      "dangerLevel": 16.83,
+      "extremeDangerLevel": 19.65
+    }
+  },
+  "issueTimestampSeconds": "1643070391",
+  "expirationTimestampSeconds": "1643243191",
+  "hasFlooding": false
+}

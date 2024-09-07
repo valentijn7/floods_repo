@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "COD\u00d3-MA",
+    "gaugeStationName": "COD\u00d3",
+    "stationId": "33590000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO ITAPECURU",
+    "waterLevelThresholds": {
+      "warningLevel": 5.8,
+      "dangerLevel": 6.8
+    }
+  },
+  "issueTimestampSeconds": "1643070300",
+  "expirationTimestampSeconds": "1643243100",
+  "hasFlooding": false
+}

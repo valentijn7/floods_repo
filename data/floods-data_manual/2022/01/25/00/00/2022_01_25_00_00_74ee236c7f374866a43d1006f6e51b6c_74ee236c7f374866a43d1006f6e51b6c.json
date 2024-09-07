@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MUZAFFARPUR",
+    "gaugeStationName": "Sakra",
+    "stationId": "033-MGD4PTN",
+    "waterLevelThresholds": {
+      "warningLevel": 49.58,
+      "dangerLevel": 50.58,
+      "extremeDangerLevel": 50.87
+    }
+  },
+  "issueTimestampSeconds": "1643070350",
+  "expirationTimestampSeconds": "1643243150",
+  "hasFlooding": false
+}

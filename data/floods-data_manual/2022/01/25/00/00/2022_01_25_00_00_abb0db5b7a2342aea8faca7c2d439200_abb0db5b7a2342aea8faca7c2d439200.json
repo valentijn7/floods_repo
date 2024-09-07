@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GANJAM",
+    "gaugeStationName": "Sorada",
+    "stationId": "028ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Rushikulya",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 80.99,
+      "dangerLevel": 81.99,
+      "extremeDangerLevel": 83.21
+    }
+  },
+  "issueTimestampSeconds": "1643070314",
+  "expirationTimestampSeconds": "1643243114",
+  "hasFlooding": false
+}

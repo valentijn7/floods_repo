@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BALASORE",
+    "gaugeStationName": "Rajghat",
+    "stationId": "012-erdbwn",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Subernarekha",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 9.45,
+      "dangerLevel": 10.36,
+      "extremeDangerLevel": 12.69
+    }
+  },
+  "issueTimestampSeconds": "1643070345",
+  "expirationTimestampSeconds": "1643243145",
+  "hasFlooding": false
+}

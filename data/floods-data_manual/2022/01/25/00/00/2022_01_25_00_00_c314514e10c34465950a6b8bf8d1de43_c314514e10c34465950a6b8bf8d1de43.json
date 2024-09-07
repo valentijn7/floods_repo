@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Buldana",
+    "gaugeStationName": "Yerli",
+    "stationId": "012-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Tapi/Purna",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 221.0,
+      "dangerLevel": 223.0,
+      "extremeDangerLevel": 233.7
+    }
+  },
+  "issueTimestampSeconds": "1643070355",
+  "expirationTimestampSeconds": "1643243155",
+  "hasFlooding": false
+}

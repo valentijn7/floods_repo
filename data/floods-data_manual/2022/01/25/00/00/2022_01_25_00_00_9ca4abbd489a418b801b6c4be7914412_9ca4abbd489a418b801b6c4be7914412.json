@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MUZAFFARNAGAR",
+    "gaugeStationName": "Mawi",
+    "stationId": "012-UYDDEL",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 231.0,
+      "dangerLevel": 231.5,
+      "extremeDangerLevel": 232.75
+    }
+  },
+  "issueTimestampSeconds": "1643070345",
+  "expirationTimestampSeconds": "1643243145",
+  "hasFlooding": false
+}

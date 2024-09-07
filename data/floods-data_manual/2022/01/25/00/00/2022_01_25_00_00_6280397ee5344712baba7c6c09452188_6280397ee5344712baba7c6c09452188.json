@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIDDHARTH NAGAR",
+    "gaugeStationName": "Bansi",
+    "stationId": "019-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Rapti",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 83.9,
+      "dangerLevel": 84.9,
+      "extremeDangerLevel": 85.88
+    }
+  },
+  "issueTimestampSeconds": "1643070361",
+  "expirationTimestampSeconds": "1643243161",
+  "hasFlooding": false
+}

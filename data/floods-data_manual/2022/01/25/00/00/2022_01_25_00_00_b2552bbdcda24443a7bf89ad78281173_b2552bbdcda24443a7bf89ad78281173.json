@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Dakshin Kannada",
+    "gaugeStationName": "Bantwal",
+    "stationId": "027-cdbng",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Nethravathi",
+    "state": "Karnataka",
+    "waterLevelThresholds": {
+      "warningLevel": 7.0,
+      "dangerLevel": 9.0,
+      "extremeDangerLevel": 13.55
+    }
+  },
+  "issueTimestampSeconds": "1643070266",
+  "expirationTimestampSeconds": "1643243066",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DHALAI",
+    "gaugeStationName": "Khowai",
+    "stationId": "004-mdsil",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Meghna/\nKhowai",
+    "state": "Tripura",
+    "waterLevelThresholds": {
+      "warningLevel": 25.0,
+      "dangerLevel": 26.0,
+      "extremeDangerLevel": 28.005
+    }
+  },
+  "issueTimestampSeconds": "1643070280",
+  "expirationTimestampSeconds": "1643243080",
+  "hasFlooding": false
+}

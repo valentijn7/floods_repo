@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "THIRUVANANTHAPURAM",
+    "gaugeStationName": "Ayilam",
+    "stationId": "021-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Vamanapuram",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 6.0,
+      "dangerLevel": 8.5,
+      "extremeDangerLevel": 10.685
+    }
+  },
+  "issueTimestampSeconds": "1643070349",
+  "expirationTimestampSeconds": "1643243149",
+  "hasFlooding": false
+}

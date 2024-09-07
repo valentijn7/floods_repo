@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOCHBIHAR",
+    "gaugeStationName": "Tufanganj",
+    "stationId": "025-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Torsa/Raidak-i",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 34.22,
+      "dangerLevel": 35.3,
+      "extremeDangerLevel": 36.5
+    }
+  },
+  "issueTimestampSeconds": "1643070374",
+  "expirationTimestampSeconds": "1643243174",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Rekabi-Bazar",
+    "stationId": "SW71A",
+    "river": "Dhaleswari",
+    "waterLevelThresholds": {
+      "warningLevel": 4.7,
+      "dangerLevel": 5.2,
+      "extremeDangerLevel": 6.2
+    }
+  },
+  "issueTimestampSeconds": "1643070397",
+  "expirationTimestampSeconds": "1643243197",
+  "hasFlooding": false
+}

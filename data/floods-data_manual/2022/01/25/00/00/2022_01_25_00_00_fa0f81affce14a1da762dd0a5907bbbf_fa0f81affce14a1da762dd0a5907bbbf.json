@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "APERIBE-RJ",
+    "gaugeStationName": "APERIB\u00c9",
+    "stationId": "58792100",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO POMBA",
+    "waterLevelThresholds": {
+      "warningLevel": 2.6,
+      "dangerLevel": 3.6
+    }
+  },
+  "issueTimestampSeconds": "1643070272",
+  "expirationTimestampSeconds": "1643243072",
+  "hasFlooding": false
+}

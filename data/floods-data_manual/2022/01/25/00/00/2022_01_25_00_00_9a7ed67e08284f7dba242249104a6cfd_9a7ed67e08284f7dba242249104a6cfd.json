@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Mirpur",
+    "stationId": "SW302",
+    "river": "Turag",
+    "waterLevelThresholds": {
+      "warningLevel": 5.45,
+      "dangerLevel": 5.95,
+      "extremeDangerLevel": 6.95
+    }
+  },
+  "issueTimestampSeconds": "1643070520",
+  "expirationTimestampSeconds": "1643243320",
+  "hasFlooding": false
+}

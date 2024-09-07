@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Chandpur",
+    "stationId": "SW277",
+    "river": "Lower Meghna",
+    "waterLevelThresholds": {
+      "warningLevel": 3.05,
+      "dangerLevel": 3.55,
+      "extremeDangerLevel": 4.55
+    }
+  },
+  "issueTimestampSeconds": "1643070351",
+  "expirationTimestampSeconds": "1643243151",
+  "hasFlooding": false
+}

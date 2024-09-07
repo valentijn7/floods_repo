@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Baghabari",
+    "stationId": "SW151",
+    "river": "Karatoa-Atrai-GGH",
+    "waterLevelThresholds": {
+      "warningLevel": 9.9,
+      "dangerLevel": 10.4,
+      "extremeDangerLevel": 11.4
+    }
+  },
+  "issueTimestampSeconds": "1643070379",
+  "expirationTimestampSeconds": "1643243179",
+  "hasFlooding": false
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Sylhet",
+    "stationId": "SW267",
+    "river": "Surma",
+    "waterLevelThresholds": {
+      "warningLevel": 10.3,
+      "dangerLevel": 10.8,
+      "extremeDangerLevel": 11.8
+    }
+  },
+  "issueTimestampSeconds": "1643070286",
+  "expirationTimestampSeconds": "1643243086",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

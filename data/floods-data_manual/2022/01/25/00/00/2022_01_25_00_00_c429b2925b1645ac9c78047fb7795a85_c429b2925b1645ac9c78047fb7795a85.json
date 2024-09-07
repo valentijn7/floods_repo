@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KURNOOL",
+    "gaugeStationName": "Mantralayam",
+    "stationId": "013-lkdhyd",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "krishna/Tungabhadra",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 310.0,
+      "dangerLevel": 312.0,
+      "extremeDangerLevel": 318.77
+    }
+  },
+  "issueTimestampSeconds": "1643070286",
+  "expirationTimestampSeconds": "1643243086",
+  "hasFlooding": false
+}

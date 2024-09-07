@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "HAMIRPUR",
+    "gaugeStationName": "Shahijina",
+    "stationId": "0010-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 103.54,
+      "dangerLevel": 104.54,
+      "extremeDangerLevel": 108.67
+    }
+  },
+  "issueTimestampSeconds": "1643070489",
+  "expirationTimestampSeconds": "1643243289",
+  "hasFlooding": false
+}

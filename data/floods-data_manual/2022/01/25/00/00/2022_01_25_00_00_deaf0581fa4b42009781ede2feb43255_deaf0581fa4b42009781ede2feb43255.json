@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "UNI\u00c3O DOS PALMARES-AL",
+    "gaugeStationName": "UNI\u00c3O DOS PALMARES",
+    "stationId": "39740000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MUNDA\u00da",
+    "waterLevelThresholds": {
+      "warningLevel": 3.5,
+      "dangerLevel": 4.88
+    }
+  },
+  "issueTimestampSeconds": "1643070364",
+  "expirationTimestampSeconds": "1643243164",
+  "hasFlooding": false
+}

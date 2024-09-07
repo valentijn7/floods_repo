@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURBA CHAMPARAN",
+    "gaugeStationName": "Chatia",
+    "stationId": "010-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 68.15,
+      "dangerLevel": 69.15,
+      "extremeDangerLevel": 70.04
+    }
+  },
+  "issueTimestampSeconds": "1643070509",
+  "expirationTimestampSeconds": "1643243309",
+  "hasFlooding": false
+}

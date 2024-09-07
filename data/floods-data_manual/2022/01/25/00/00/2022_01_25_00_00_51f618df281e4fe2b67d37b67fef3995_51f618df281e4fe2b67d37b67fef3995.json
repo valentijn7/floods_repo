@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Nanded",
+    "gaugeStationName": "Nanded",
+    "stationId": "015-UGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 353.0,
+      "dangerLevel": 354.0,
+      "extremeDangerLevel": 357.1
+    }
+  },
+  "issueTimestampSeconds": "1643070281",
+  "expirationTimestampSeconds": "1643243081",
+  "hasFlooding": false
+}

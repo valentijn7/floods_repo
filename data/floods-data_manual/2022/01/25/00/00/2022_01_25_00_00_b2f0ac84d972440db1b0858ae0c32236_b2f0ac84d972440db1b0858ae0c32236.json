@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Kolhapur",
+    "gaugeStationName": "Terwad (Seasonal)",
+    "stationId": "006-UKDPUNE",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna/Panchganga",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 534.0,
+      "dangerLevel": 536.0,
+      "extremeDangerLevel": 542.11
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

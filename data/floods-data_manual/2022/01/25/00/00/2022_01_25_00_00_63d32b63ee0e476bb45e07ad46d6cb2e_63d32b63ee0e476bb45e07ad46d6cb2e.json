@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Dhule",
+    "gaugeStationName": "Sarangkheda",
+    "stationId": "020-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Tapi",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 123.5,
+      "dangerLevel": 125.0,
+      "extremeDangerLevel": 127.08
+    }
+  },
+  "issueTimestampSeconds": "1643070305",
+  "expirationTimestampSeconds": "1643243105",
+  "hasFlooding": false
+}

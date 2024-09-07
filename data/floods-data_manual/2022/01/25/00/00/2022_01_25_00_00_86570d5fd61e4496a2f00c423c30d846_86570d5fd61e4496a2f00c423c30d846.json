@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURBI SINGHBHUM",
+    "gaugeStationName": "Jamshedpur",
+    "stationId": "008-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Subernarekha",
+    "state": "Jharkhand",
+    "waterLevelThresholds": {
+      "warningLevel": 122.5,
+      "dangerLevel": 123.5,
+      "extremeDangerLevel": 129.82
+    }
+  },
+  "issueTimestampSeconds": "1643070300",
+  "expirationTimestampSeconds": "1643243100",
+  "hasFlooding": false
+}

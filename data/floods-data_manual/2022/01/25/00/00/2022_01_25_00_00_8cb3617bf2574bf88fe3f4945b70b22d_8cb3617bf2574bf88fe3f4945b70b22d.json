@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SONITPUR",
+    "gaugeStationName": "Tezpur",
+    "stationId": "031-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 64.23,
+      "dangerLevel": 65.23,
+      "extremeDangerLevel": 66.59
+    }
+  },
+  "issueTimestampSeconds": "1643070292",
+  "expirationTimestampSeconds": "1643243092",
+  "hasFlooding": false
+}

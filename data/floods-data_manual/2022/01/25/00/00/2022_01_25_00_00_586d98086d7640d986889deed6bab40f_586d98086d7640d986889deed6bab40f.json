@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOTTAYAM",
+    "gaugeStationName": "MANIKAL",
+    "stationId": "032-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 77.4,
+      "dangerLevel": 78.4
+    }
+  },
+  "issueTimestampSeconds": "1643070349",
+  "expirationTimestampSeconds": "1643243149",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BHADRAK",
+    "gaugeStationName": "Akhuapada",
+    "stationId": "016-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Baitarni",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 17.83,
+      "dangerLevel": 17.83,
+      "extremeDangerLevel": 21.95
+    }
+  },
+  "issueTimestampSeconds": "1643070299",
+  "expirationTimestampSeconds": "1643243099",
+  "hasFlooding": false
+}

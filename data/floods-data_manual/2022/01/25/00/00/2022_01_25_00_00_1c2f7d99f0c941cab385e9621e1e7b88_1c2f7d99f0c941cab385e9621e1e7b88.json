@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "AGRA",
+    "gaugeStationName": "Agra (J.B.)",
+    "stationId": "001-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 151.4,
+      "dangerLevel": 152.4,
+      "extremeDangerLevel": 154.76
+    }
+  },
+  "issueTimestampSeconds": "1643070293",
+  "expirationTimestampSeconds": "1643243093",
+  "hasFlooding": false
+}

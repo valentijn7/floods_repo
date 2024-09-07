@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BIRBHUM",
+    "gaugeStationName": "Gheropara",
+    "stationId": "025-DDASL",
+    "publisherName": "LGBO Patna",
+    "river": "Bhagirathi/Ajoy",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 38.42,
+      "dangerLevel": 39.42,
+      "extremeDangerLevel": 43.94
+    }
+  },
+  "issueTimestampSeconds": "1643070401",
+  "expirationTimestampSeconds": "1643243201",
+  "hasFlooding": false
+}

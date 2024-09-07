@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Nashik",
+    "gaugeStationName": "Nasik",
+    "stationId": "003-ugdhyd",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 558.1,
+      "dangerLevel": 559.6,
+      "extremeDangerLevel": 563.51
+    }
+  },
+  "issueTimestampSeconds": "1643070348",
+  "expirationTimestampSeconds": "1643243148",
+  "hasFlooding": false
+}

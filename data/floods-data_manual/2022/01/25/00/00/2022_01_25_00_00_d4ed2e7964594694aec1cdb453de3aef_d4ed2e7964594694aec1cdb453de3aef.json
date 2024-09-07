@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURBA CHAMPARAN",
+    "gaugeStationName": "Ahirwalia (Seasonal)",
+    "stationId": "003-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Burhi Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 58.62,
+      "dangerLevel": 59.62,
+      "extremeDangerLevel": 61.17
+    }
+  },
+  "issueTimestampSeconds": "1643070345",
+  "expirationTimestampSeconds": "1643243145",
+  "hasFlooding": false
+}

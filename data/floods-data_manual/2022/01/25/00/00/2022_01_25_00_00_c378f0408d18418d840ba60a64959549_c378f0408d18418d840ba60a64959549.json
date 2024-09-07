@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Chandrapur",
+    "gaugeStationName": "Bamni",
+    "stationId": "017-WGDNGP",
+    "publisherName": "MCO, Nagpur",
+    "river": "Godavari/Pranhita/Wardha",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 171.5,
+      "dangerLevel": 174.0,
+      "extremeDangerLevel": 176.45
+    }
+  },
+  "issueTimestampSeconds": "1643070292",
+  "expirationTimestampSeconds": "1643243092",
+  "hasFlooding": false
+}

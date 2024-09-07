@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GORAKHPUR",
+    "gaugeStationName": "Birdghat",
+    "stationId": "023-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Rapti",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 73.98,
+      "dangerLevel": 74.98,
+      "extremeDangerLevel": 77.54
+    }
+  },
+  "issueTimestampSeconds": "1643070351",
+  "expirationTimestampSeconds": "1643243151",
+  "hasFlooding": false
+}

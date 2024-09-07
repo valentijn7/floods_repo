@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "WEST TRIPURA",
+    "gaugeStationName": "Haora",
+    "stationId": "005-mdsil",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Meghna/\nHaora",
+    "state": "Tripura",
+    "waterLevelThresholds": {
+      "warningLevel": 10.0,
+      "dangerLevel": 10.7,
+      "extremeDangerLevel": 12.4
+    }
+  },
+  "issueTimestampSeconds": "1643070278",
+  "expirationTimestampSeconds": "1643243078",
+  "hasFlooding": false
+}

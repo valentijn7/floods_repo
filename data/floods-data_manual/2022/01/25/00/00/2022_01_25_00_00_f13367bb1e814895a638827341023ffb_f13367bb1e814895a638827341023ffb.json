@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NOVA ERA-MG",
+    "gaugeStationName": "NOVA ERA TELEM\u00c9TRICA",
+    "stationId": "56661000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO PIRACICABA",
+    "waterLevelThresholds": {
+      "warningLevel": 3.5,
+      "dangerLevel": 4.7
+    }
+  },
+  "issueTimestampSeconds": "1643070268",
+  "expirationTimestampSeconds": "1643243068",
+  "hasFlooding": false
+}

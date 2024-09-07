@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PONTE NOVA-MG",
+    "gaugeStationName": "PONTE NOVA JUSANTE",
+    "stationId": "56110005",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO PIRANGA",
+    "waterLevelThresholds": {
+      "warningLevel": 2.8,
+      "dangerLevel": 3.3
+    }
+  },
+  "issueTimestampSeconds": "1643070366",
+  "expirationTimestampSeconds": "1643243166",
+  "hasFlooding": false
+}

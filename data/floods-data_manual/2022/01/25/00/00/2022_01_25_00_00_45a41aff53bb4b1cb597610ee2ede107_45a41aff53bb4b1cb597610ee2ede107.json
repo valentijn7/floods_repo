@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ADILABAD",
+    "gaugeStationName": "Sirpur",
+    "stationId": "028-wgdngp",
+    "publisherName": "MCO, Nagpur",
+    "river": "Godavari/Pranhita/Wardha",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 159.95,
+      "dangerLevel": 160.95,
+      "extremeDangerLevel": 161.34
+    }
+  },
+  "issueTimestampSeconds": "1643070268",
+  "expirationTimestampSeconds": "1643243068",
+  "hasFlooding": false
+}

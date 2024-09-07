@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOTTAYAM",
+    "gaugeStationName": "Kidangoor",
+    "stationId": "015-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Meenachi",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 6.16,
+      "dangerLevel": 7.16,
+      "extremeDangerLevel": 9.4
+    }
+  },
+  "issueTimestampSeconds": "1643070255",
+  "expirationTimestampSeconds": "1643243055",
+  "hasFlooding": false
+}

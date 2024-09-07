@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SRIKAKULAM",
+    "gaugeStationName": "Srikakulam",
+    "stationId": "040-erdbwn",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Nagavali",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 10.17,
+      "dangerLevel": 10.8,
+      "extremeDangerLevel": 14.53
+    }
+  },
+  "issueTimestampSeconds": "1643070368",
+  "expirationTimestampSeconds": "1643243168",
+  "hasFlooding": false
+}

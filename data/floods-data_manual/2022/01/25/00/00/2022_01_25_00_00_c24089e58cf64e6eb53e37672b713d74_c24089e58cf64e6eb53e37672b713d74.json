@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Ratnagiri",
+    "gaugeStationName": "Nivali",
+    "stationId": "023-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Bav",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 9.4,
+      "dangerLevel": 11.0,
+      "extremeDangerLevel": 12.465
+    }
+  },
+  "issueTimestampSeconds": "1643070315",
+  "expirationTimestampSeconds": "1643243115",
+  "hasFlooding": false
+}

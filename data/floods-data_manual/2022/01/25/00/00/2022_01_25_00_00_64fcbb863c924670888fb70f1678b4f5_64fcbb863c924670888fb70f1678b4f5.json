@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Kaunia",
+    "stationId": "SW294",
+    "river": "Teesta",
+    "waterLevelThresholds": {
+      "warningLevel": 28.7,
+      "dangerLevel": 29.2,
+      "extremeDangerLevel": 30.2
+    }
+  },
+  "issueTimestampSeconds": "1643070459",
+  "expirationTimestampSeconds": "1643243259",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

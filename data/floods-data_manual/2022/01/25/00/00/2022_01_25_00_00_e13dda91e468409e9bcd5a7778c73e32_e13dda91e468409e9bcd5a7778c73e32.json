@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JORHAT",
+    "gaugeStationName": "Neamatighat",
+    "stationId": "019-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 84.54,
+      "dangerLevel": 85.54,
+      "extremeDangerLevel": 87.37
+    }
+  },
+  "issueTimestampSeconds": "1643070401",
+  "expirationTimestampSeconds": "1643243201",
+  "hasFlooding": false
+}

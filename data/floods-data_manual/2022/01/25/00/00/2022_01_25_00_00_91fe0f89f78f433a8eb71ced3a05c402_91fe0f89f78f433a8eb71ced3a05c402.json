@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SONBHADRA",
+    "gaugeStationName": "Chopan",
+    "stationId": "013-mgd3vns",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Sone",
+    "state": "Madhya Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 170.0,
+      "dangerLevel": 171.0,
+      "extremeDangerLevel": 175.61
+    }
+  },
+  "issueTimestampSeconds": "1643070280",
+  "expirationTimestampSeconds": "1643243080",
+  "hasFlooding": false
+}

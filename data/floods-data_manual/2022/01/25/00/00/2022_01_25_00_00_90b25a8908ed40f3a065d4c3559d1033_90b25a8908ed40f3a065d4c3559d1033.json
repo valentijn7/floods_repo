@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOTTAYAM",
+    "gaugeStationName": "PULLAKKAYAR",
+    "stationId": "035-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 96.2,
+      "dangerLevel": 97.2
+    }
+  },
+  "issueTimestampSeconds": "1643070298",
+  "expirationTimestampSeconds": "1643243098",
+  "hasFlooding": false
+}

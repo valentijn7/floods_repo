@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Baleshwar",
+    "gaugeStationName": "Mathani Road Bridge",
+    "stationId": "060-erdbwn",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Jalaka",
+    "state": "Odisha",
+    "waterLevelThresholds": {
+      "warningLevel": 5.5,
+      "dangerLevel": 5.5,
+      "extremeDangerLevel": 6.8
+    }
+  },
+  "issueTimestampSeconds": "1643070291",
+  "expirationTimestampSeconds": "1643243091",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Nayarhat",
+    "stationId": "SW14.5",
+    "river": "Bangshi",
+    "waterLevelThresholds": {
+      "warningLevel": 6.8,
+      "dangerLevel": 7.3,
+      "extremeDangerLevel": 8.3
+    }
+  },
+  "issueTimestampSeconds": "1643070381",
+  "expirationTimestampSeconds": "1643243181",
+  "hasFlooding": false
+}

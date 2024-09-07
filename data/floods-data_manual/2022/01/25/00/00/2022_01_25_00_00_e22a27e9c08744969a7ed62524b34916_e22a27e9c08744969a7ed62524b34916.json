@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Sherpur-Sylhet",
+    "stationId": "SW175.5",
+    "river": "Kushiyara",
+    "waterLevelThresholds": {
+      "warningLevel": 8.05,
+      "dangerLevel": 8.55,
+      "extremeDangerLevel": 9.55
+    }
+  },
+  "issueTimestampSeconds": "1643070354",
+  "expirationTimestampSeconds": "1643243154",
+  "hasFlooding": false
+}

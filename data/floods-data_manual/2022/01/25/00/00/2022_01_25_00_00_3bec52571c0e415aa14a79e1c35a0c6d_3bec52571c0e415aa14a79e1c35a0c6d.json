@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Narayanhat",
+    "stationId": "SW117",
+    "river": "Halda",
+    "waterLevelThresholds": {
+      "warningLevel": 14.75,
+      "dangerLevel": 15.25,
+      "extremeDangerLevel": 16.25
+    }
+  },
+  "issueTimestampSeconds": "1643070266",
+  "expirationTimestampSeconds": "1643243066",
+  "hasFlooding": false
+}

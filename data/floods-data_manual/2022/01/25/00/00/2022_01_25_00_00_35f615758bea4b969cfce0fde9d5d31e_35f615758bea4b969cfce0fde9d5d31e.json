@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GAJAPATI",
+    "gaugeStationName": "Kashinagar",
+    "stationId": "036-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Vamsadhar",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 54.1,
+      "dangerLevel": 54.6,
+      "extremeDangerLevel": 58.93
+    }
+  },
+  "issueTimestampSeconds": "1643070296",
+  "expirationTimestampSeconds": "1643243096",
+  "hasFlooding": false
+}

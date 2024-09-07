@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Satara",
+    "gaugeStationName": "Karad",
+    "stationId": "001-UKDPUNE",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 563.68,
+      "dangerLevel": 567.035,
+      "extremeDangerLevel": 567.162
+    }
+  },
+  "issueTimestampSeconds": "1643070258",
+  "expirationTimestampSeconds": "1643243058",
+  "hasFlooding": false
+}

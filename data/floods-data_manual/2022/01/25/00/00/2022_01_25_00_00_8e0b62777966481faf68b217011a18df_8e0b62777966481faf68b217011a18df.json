@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Madaripur",
+    "stationId": "SW5",
+    "river": "Arialkhan",
+    "waterLevelThresholds": {
+      "warningLevel": 3.6999998,
+      "dangerLevel": 4.2,
+      "extremeDangerLevel": 5.2
+    }
+  },
+  "issueTimestampSeconds": "1643070418",
+  "expirationTimestampSeconds": "1643243218",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KANPUR DEHAT",
+    "gaugeStationName": "Ankinghat",
+    "stationId": "011-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 123.0,
+      "dangerLevel": 124.0,
+      "extremeDangerLevel": 124.49
+    }
+  },
+  "issueTimestampSeconds": "1643070362",
+  "expirationTimestampSeconds": "1643243162",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PRAYGRAJ",
+    "gaugeStationName": "Chhatang Allahabad",
+    "stationId": "003-MGD3VNS",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 83.73,
+      "dangerLevel": 84.73,
+      "extremeDangerLevel": 88.03
+    }
+  },
+  "issueTimestampSeconds": "1643070390",
+  "expirationTimestampSeconds": "1643243190",
+  "hasFlooding": false
+}

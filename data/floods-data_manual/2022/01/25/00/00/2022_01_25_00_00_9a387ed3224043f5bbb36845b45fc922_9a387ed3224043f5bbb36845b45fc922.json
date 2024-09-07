@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "A\u00c7UCENA-MG",
+    "gaugeStationName": "NAQUE VELHO",
+    "stationId": "56825000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO SANTO ANT\u00d4NIO",
+    "waterLevelThresholds": {
+      "warningLevel": 6.4,
+      "dangerLevel": 7.4
+    }
+  },
+  "issueTimestampSeconds": "1643070297",
+  "expirationTimestampSeconds": "1643243097",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Chakrahimpur",
+    "stationId": "SW63",
+    "river": "Karatoa",
+    "waterLevelThresholds": {
+      "warningLevel": 19.65,
+      "dangerLevel": 20.15,
+      "extremeDangerLevel": 21.15
+    }
+  },
+  "issueTimestampSeconds": "1643070287",
+  "expirationTimestampSeconds": "1643243087",
+  "hasFlooding": false
+}

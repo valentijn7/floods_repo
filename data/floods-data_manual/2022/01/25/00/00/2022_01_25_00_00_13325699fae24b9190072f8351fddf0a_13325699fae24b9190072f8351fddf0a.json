@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JALPAIGURI",
+    "gaugeStationName": "NH-31",
+    "stationId": "027-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Jaldhaka",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 80.0,
+      "dangerLevel": 80.9,
+      "extremeDangerLevel": 81.33
+    }
+  },
+  "issueTimestampSeconds": "1643070291",
+  "expirationTimestampSeconds": "1643243091",
+  "hasFlooding": false
+}

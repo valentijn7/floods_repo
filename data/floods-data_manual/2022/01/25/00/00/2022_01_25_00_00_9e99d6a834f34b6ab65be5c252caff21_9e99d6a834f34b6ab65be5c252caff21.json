@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BALLIA",
+    "gaugeStationName": "Turtipar",
+    "stationId": "012-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 63.01,
+      "dangerLevel": 64.01,
+      "extremeDangerLevel": 66.0
+    }
+  },
+  "issueTimestampSeconds": "1643070287",
+  "expirationTimestampSeconds": "1643243087",
+  "hasFlooding": false
+}

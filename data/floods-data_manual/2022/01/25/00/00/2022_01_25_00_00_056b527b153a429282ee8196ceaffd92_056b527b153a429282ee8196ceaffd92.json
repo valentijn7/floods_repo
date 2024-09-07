@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Narmada",
+    "gaugeStationName": "Garudeshwar",
+    "stationId": "003-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Narmada",
+    "state": "Gujarat",
+    "waterLevelThresholds": {
+      "warningLevel": 30.48,
+      "dangerLevel": 31.09,
+      "extremeDangerLevel": 41.65
+    }
+  },
+  "issueTimestampSeconds": "1643070434",
+  "expirationTimestampSeconds": "1643243234",
+  "hasFlooding": false
+}

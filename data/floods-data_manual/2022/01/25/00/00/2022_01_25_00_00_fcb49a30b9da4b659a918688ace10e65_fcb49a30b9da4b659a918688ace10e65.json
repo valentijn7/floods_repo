@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MORADABAD",
+    "gaugeStationName": "Moradabad",
+    "stationId": "008-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ramganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 189.6,
+      "dangerLevel": 190.6,
+      "extremeDangerLevel": 192.88
+    }
+  },
+  "issueTimestampSeconds": "1643070405",
+  "expirationTimestampSeconds": "1643243205",
+  "hasFlooding": false
+}

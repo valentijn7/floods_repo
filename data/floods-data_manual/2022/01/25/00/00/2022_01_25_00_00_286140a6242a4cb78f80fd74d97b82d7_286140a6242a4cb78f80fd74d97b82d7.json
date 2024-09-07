@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BHADRADRI",
+    "gaugeStationName": "Dummugudem",
+    "stationId": "016-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 53.0,
+      "dangerLevel": 55.0,
+      "extremeDangerLevel": 60.25
+    }
+  },
+  "issueTimestampSeconds": "1643070392",
+  "expirationTimestampSeconds": "1643243192",
+  "hasFlooding": false
+}

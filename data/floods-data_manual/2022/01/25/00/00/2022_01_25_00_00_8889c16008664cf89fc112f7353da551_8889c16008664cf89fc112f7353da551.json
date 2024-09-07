@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURNIA",
+    "gaugeStationName": "Dhengraghat",
+    "stationId": "030-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Mahananda",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 34.65,
+      "dangerLevel": 35.65,
+      "extremeDangerLevel": 38.2
+    }
+  },
+  "issueTimestampSeconds": "1643070300",
+  "expirationTimestampSeconds": "1643243100",
+  "hasFlooding": false
+}

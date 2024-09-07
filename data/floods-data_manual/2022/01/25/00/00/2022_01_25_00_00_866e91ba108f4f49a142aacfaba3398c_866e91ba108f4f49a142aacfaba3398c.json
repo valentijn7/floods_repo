@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BUDAUN",
+    "gaugeStationName": "Kachlabridge",
+    "stationId": "002-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 161.0,
+      "dangerLevel": 162.0,
+      "extremeDangerLevel": 162.79
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

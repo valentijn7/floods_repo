@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MAYURBHANJ",
+    "gaugeStationName": "Jamsholaghat",
+    "stationId": "010-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Subernarekha",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 48.32,
+      "dangerLevel": 49.16,
+      "extremeDangerLevel": 56.755
+    }
+  },
+  "issueTimestampSeconds": "1643070337",
+  "expirationTimestampSeconds": "1643243137",
+  "hasFlooding": false
+}

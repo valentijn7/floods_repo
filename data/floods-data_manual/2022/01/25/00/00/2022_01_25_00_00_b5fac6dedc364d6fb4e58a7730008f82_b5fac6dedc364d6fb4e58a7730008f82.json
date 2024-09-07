@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ROHTAS",
+    "gaugeStationName": "Indrapuri",
+    "stationId": "023-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Sone",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 107.2,
+      "dangerLevel": 108.2,
+      "extremeDangerLevel": 108.85
+    }
+  },
+  "issueTimestampSeconds": "1643070256",
+  "expirationTimestampSeconds": "1643243056",
+  "hasFlooding": false
+}

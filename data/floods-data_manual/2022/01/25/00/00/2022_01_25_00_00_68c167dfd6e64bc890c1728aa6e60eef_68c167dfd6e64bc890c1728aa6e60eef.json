@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOCHBIHAR",
+    "gaugeStationName": "Mathabhanga",
+    "stationId": "028-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Jaldhaka",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 47.7,
+      "dangerLevel": 48.2,
+      "extremeDangerLevel": 49.85
+    }
+  },
+  "issueTimestampSeconds": "1643070286",
+  "expirationTimestampSeconds": "1643243086",
+  "hasFlooding": false
+}

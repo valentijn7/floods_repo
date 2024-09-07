@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KENDUJHAR",
+    "gaugeStationName": "Anandapur",
+    "stationId": "015-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Baitarni",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 37.44,
+      "dangerLevel": 38.36,
+      "extremeDangerLevel": 41.35
+    }
+  },
+  "issueTimestampSeconds": "1643070441",
+  "expirationTimestampSeconds": "1643243241",
+  "hasFlooding": false
+}

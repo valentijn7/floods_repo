@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIBSAGAR",
+    "gaugeStationName": "Bihubar",
+    "stationId": "017-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nDikhow",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 100.0,
+      "dangerLevel": 101.0,
+      "extremeDangerLevel": 104.77
+    }
+  },
+  "issueTimestampSeconds": "1643070268",
+  "expirationTimestampSeconds": "1643243068",
+  "hasFlooding": false
+}

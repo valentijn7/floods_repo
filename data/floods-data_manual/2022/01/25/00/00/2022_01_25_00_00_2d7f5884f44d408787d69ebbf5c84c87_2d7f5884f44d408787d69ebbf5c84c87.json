@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Sangli",
+    "gaugeStationName": "Samdoli (Seasonal)",
+    "stationId": "003-UKDPUNE",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna/Varna",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 541.95,
+      "dangerLevel": 543.15,
+      "extremeDangerLevel": 547.03
+    }
+  },
+  "issueTimestampSeconds": "1643070353",
+  "expirationTimestampSeconds": "1643243153",
+  "hasFlooding": false
+}

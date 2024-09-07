@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "HOSHANGABAD",
+    "gaugeStationName": "Hoshangabad",
+    "stationId": "016-NDBHP",
+    "publisherName": "Narmada Basin Organisation Bhopal",
+    "river": "Narmada",
+    "state": "Madhya Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 292.8,
+      "dangerLevel": 293.8,
+      "extremeDangerLevel": 301.33
+    }
+  },
+  "issueTimestampSeconds": "1643070256",
+  "expirationTimestampSeconds": "1643243056",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Narsingdi",
+    "stationId": "SW274",
+    "river": "Meghna",
+    "waterLevelThresholds": {
+      "warningLevel": 4.75,
+      "dangerLevel": 5.25,
+      "extremeDangerLevel": 6.25
+    }
+  },
+  "issueTimestampSeconds": "1643070389",
+  "expirationTimestampSeconds": "1643243189",
+  "hasFlooding": false
+}

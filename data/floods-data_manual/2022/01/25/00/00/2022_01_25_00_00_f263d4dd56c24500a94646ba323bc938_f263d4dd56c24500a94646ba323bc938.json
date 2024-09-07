@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Bhagyakul",
+    "stationId": "SW93.4L",
+    "river": "Padma",
+    "waterLevelThresholds": {
+      "warningLevel": 5.8,
+      "dangerLevel": 6.3,
+      "extremeDangerLevel": 7.3
+    }
+  },
+  "issueTimestampSeconds": "1643070411",
+  "expirationTimestampSeconds": "1643243211",
+  "hasFlooding": false
+}

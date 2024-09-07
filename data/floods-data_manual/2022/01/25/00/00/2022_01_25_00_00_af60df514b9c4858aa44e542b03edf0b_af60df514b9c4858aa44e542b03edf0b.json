@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KRISHNA",
+    "gaugeStationName": "Avanigadda",
+    "stationId": "038-LKDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 9.0,
+      "dangerLevel": 11.0,
+      "extremeDangerLevel": 11.57
+    }
+  },
+  "issueTimestampSeconds": "1643070349",
+  "expirationTimestampSeconds": "1643243149",
+  "hasFlooding": false
+}

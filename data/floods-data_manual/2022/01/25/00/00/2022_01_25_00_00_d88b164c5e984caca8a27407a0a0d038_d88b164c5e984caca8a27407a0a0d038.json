@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOZHIKODE",
+    "gaugeStationName": "Kuttyadi",
+    "stationId": "004-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Kuttyadi",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 5.95,
+      "dangerLevel": 6.95,
+      "extremeDangerLevel": 8.7
+    }
+  },
+  "issueTimestampSeconds": "1643070333",
+  "expirationTimestampSeconds": "1643243133",
+  "hasFlooding": false
+}

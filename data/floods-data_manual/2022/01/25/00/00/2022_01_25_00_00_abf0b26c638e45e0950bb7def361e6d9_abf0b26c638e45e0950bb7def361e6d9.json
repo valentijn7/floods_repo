@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Kurigram",
+    "stationId": "SW77",
+    "river": "Dharla",
+    "waterLevelThresholds": {
+      "warningLevel": 26.0,
+      "dangerLevel": 26.5,
+      "extremeDangerLevel": 27.5
+    }
+  },
+  "issueTimestampSeconds": "1643070325",
+  "expirationTimestampSeconds": "1643243125",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

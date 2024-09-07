@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "COROATA-MA",
+    "gaugeStationName": "COROAT\u00c1",
+    "stationId": "33630000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO ITAPECURU",
+    "waterLevelThresholds": {
+      "warningLevel": 7.0,
+      "dangerLevel": 8.6
+    }
+  },
+  "issueTimestampSeconds": "1643070353",
+  "expirationTimestampSeconds": "1643243153",
+  "hasFlooding": false
+}

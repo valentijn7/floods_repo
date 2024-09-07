@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Serajganj",
+    "stationId": "SW49",
+    "river": "Jamuna",
+    "waterLevelThresholds": {
+      "warningLevel": 12.85,
+      "dangerLevel": 13.35,
+      "extremeDangerLevel": 14.35
+    }
+  },
+  "issueTimestampSeconds": "1643070408",
+  "expirationTimestampSeconds": "1643243208",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

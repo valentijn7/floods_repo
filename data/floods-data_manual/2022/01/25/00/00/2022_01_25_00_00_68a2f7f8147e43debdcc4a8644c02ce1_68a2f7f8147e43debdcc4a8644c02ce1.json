@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "B. Baria",
+    "stationId": "SW3A",
+    "river": "Titas",
+    "waterLevelThresholds": {
+      "warningLevel": 4.55,
+      "dangerLevel": 5.05,
+      "extremeDangerLevel": 6.05
+    }
+  },
+  "issueTimestampSeconds": "1643070342",
+  "expirationTimestampSeconds": "1643243142",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Raibareli",
+    "gaugeStationName": "Raibareli",
+    "stationId": "016-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Gomti/Sai",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 100.0,
+      "dangerLevel": 101.0,
+      "extremeDangerLevel": 104.81
+    }
+  },
+  "issueTimestampSeconds": "1643070358",
+  "expirationTimestampSeconds": "1643243158",
+  "hasFlooding": false
+}

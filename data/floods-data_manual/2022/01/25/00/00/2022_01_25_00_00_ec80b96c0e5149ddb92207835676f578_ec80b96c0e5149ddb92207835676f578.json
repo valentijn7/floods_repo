@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ITAQUI-RS",
+    "gaugeStationName": "ITAQUI",
+    "stationId": "75900000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO URUGUAI",
+    "waterLevelThresholds": {
+      "warningLevel": 7.3,
+      "dangerLevel": 8.3
+    }
+  },
+  "issueTimestampSeconds": "1643070252",
+  "expirationTimestampSeconds": "1643243052",
+  "hasFlooding": false
+}

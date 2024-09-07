@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MARIGAON",
+    "gaugeStationName": "Dharamtul",
+    "stationId": "034-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nKopili",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 55.0,
+      "dangerLevel": 56.0,
+      "extremeDangerLevel": 58.09
+    }
+  },
+  "issueTimestampSeconds": "1643070352",
+  "expirationTimestampSeconds": "1643243152",
+  "hasFlooding": false
+}

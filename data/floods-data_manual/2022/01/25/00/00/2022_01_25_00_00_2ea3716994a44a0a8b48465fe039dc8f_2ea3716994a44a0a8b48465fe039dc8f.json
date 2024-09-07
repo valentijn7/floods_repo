@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PORTO MURTINHO-MS",
+    "gaugeStationName": "PORTO MURTINHO",
+    "stationId": "67100000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO PARAGUAI",
+    "waterLevelThresholds": {
+      "warningLevel": 7.0,
+      "dangerLevel": 7.27
+    }
+  },
+  "issueTimestampSeconds": "1643070305",
+  "expirationTimestampSeconds": "1643243105",
+  "hasFlooding": false
+}

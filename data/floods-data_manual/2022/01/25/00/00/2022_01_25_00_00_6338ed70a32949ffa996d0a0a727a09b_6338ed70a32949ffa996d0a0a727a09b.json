@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Ayodhya",
+    "gaugeStationName": "Ayodhya",
+    "stationId": "011-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Saryu",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 91.73,
+      "dangerLevel": 92.73,
+      "extremeDangerLevel": 94.01
+    }
+  },
+  "issueTimestampSeconds": "1643070287",
+  "expirationTimestampSeconds": "1643243087",
+  "hasFlooding": false
+}

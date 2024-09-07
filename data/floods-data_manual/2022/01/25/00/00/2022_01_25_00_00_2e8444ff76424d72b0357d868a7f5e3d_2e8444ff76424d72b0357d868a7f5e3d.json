@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Erode",
+    "gaugeStationName": "Savandapur",
+    "stationId": "008-SRDCBE",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Cauvery/Bhavani",
+    "state": "Tamilnadu",
+    "waterLevelThresholds": {
+      "warningLevel": 184.5,
+      "dangerLevel": 185.5,
+      "extremeDangerLevel": 187.75
+    }
+  },
+  "issueTimestampSeconds": "1643070428",
+  "expirationTimestampSeconds": "1643243228",
+  "hasFlooding": false
+}

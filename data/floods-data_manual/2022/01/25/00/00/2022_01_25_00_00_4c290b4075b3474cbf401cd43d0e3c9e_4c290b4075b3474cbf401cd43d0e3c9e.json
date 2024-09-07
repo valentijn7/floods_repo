@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NAGAON",
+    "gaugeStationName": "Kampur",
+    "stationId": "033-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Kopili",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 59.5,
+      "dangerLevel": 60.5,
+      "extremeDangerLevel": 61.79
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

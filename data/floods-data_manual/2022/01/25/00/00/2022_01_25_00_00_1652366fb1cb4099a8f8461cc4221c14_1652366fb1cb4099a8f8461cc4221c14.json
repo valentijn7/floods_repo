@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "TERESINA-PI",
+    "gaugeStationName": "TERESINA - CHESF",
+    "stationId": "34690000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO PARNA\u00cdBA",
+    "waterLevelThresholds": {
+      "warningLevel": 5.0,
+      "dangerLevel": 6.9
+    }
+  },
+  "issueTimestampSeconds": "1643070347",
+  "expirationTimestampSeconds": "1643243147",
+  "hasFlooding": false
+}

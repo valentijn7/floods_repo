@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SONITPUR",
+    "gaugeStationName": "Jiabharali    NT Road          X-ing",
+    "stationId": "030-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Jiabharali",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 76.0,
+      "dangerLevel": 77.0,
+      "extremeDangerLevel": 78.5
+    }
+  },
+  "issueTimestampSeconds": "1643070431",
+  "expirationTimestampSeconds": "1643243231",
+  "hasFlooding": false
+}

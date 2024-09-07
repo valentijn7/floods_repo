@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "S\u00c3O SEBASTI\u00c3O DO CA\u00cd-RS",
+    "gaugeStationName": "BARCA DO CA\u00cd",
+    "stationId": "87170000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO CA\u00cd",
+    "waterLevelThresholds": {
+      "warningLevel": 7.0,
+      "dangerLevel": 10.0
+    }
+  },
+  "issueTimestampSeconds": "1643070362",
+  "expirationTimestampSeconds": "1643243162",
+  "hasFlooding": false
+}

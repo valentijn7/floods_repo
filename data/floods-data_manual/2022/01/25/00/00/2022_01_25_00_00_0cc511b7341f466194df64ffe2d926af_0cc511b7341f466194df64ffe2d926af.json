@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KURNOOL",
+    "gaugeStationName": "Kurnool",
+    "stationId": "037-LKDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Tungabhadra",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 273.0,
+      "dangerLevel": 274.0,
+      "extremeDangerLevel": 281.22
+    }
+  },
+  "issueTimestampSeconds": "1643070317",
+  "expirationTimestampSeconds": "1643243117",
+  "hasFlooding": false
+}

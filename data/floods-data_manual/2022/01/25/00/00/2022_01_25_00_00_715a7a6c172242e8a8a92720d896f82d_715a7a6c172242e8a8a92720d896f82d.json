@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Tehri Garhwal",
+    "gaugeStationName": "Koteshwar",
+    "stationId": "009-HGDDDN",
+    "waterLevelThresholds": {
+      "warningLevel": 544.0,
+      "dangerLevel": 545.0,
+      "extremeDangerLevel": 546.7
+    }
+  },
+  "issueTimestampSeconds": "1643070251",
+  "expirationTimestampSeconds": "1643243051",
+  "hasFlooding": false
+}

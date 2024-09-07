@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Moulvibazar",
+    "stationId": "SW202",
+    "river": "Manu",
+    "waterLevelThresholds": {
+      "warningLevel": 10.8,
+      "dangerLevel": 11.3,
+      "extremeDangerLevel": 12.3
+    }
+  },
+  "issueTimestampSeconds": "1643070537",
+  "expirationTimestampSeconds": "1643243337",
+  "hasFlooding": false
+}

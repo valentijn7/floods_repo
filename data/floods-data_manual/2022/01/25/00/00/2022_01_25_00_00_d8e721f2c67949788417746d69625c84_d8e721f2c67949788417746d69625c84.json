@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOTA",
+    "gaugeStationName": "Kota City",
+    "stationId": "044-CDJAPR",
+    "publisherName": "YBO, New Delhi",
+    "river": "Chambal",
+    "state": "Rajasthan",
+    "waterLevelThresholds": {
+      "warningLevel": 239.0,
+      "dangerLevel": 242.0,
+      "extremeDangerLevel": 248.68
+    }
+  },
+  "issueTimestampSeconds": "1643070258",
+  "expirationTimestampSeconds": "1643243058",
+  "hasFlooding": false
+}

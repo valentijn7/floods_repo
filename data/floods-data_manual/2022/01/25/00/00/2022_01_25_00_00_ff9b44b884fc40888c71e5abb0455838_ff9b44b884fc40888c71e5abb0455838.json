@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BHAGALPUR",
+    "gaugeStationName": "Kahalgaon",
+    "stationId": "007-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 30.09,
+      "dangerLevel": 31.09,
+      "extremeDangerLevel": 32.87
+    }
+  },
+  "issueTimestampSeconds": "1643070416",
+  "expirationTimestampSeconds": "1643243216",
+  "hasFlooding": false
+}

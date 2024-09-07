@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Kanyakumari",
+    "gaugeStationName": "Ashramam",
+    "stationId": "023-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Pazhayar",
+    "state": "Tamilnadu",
+    "waterLevelThresholds": {
+      "warningLevel": 4.5,
+      "dangerLevel": 6.0,
+      "extremeDangerLevel": 7.1
+    }
+  },
+  "issueTimestampSeconds": "1643070526",
+  "expirationTimestampSeconds": "1643243326",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Udupi",
+    "gaugeStationName": "SANOOR",
+    "stationId": "042CDBNG",
+    "waterLevelThresholds": {
+      "warningLevel": 97.8,
+      "dangerLevel": 98.8,
+      "extremeDangerLevel": 100.5
+    }
+  },
+  "issueTimestampSeconds": "1643070303",
+  "expirationTimestampSeconds": "1643243103",
+  "hasFlooding": false
+}

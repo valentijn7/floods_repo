@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NORTH",
+    "gaugeStationName": "Delhi Rly Bridge",
+    "stationId": "015-UYDDEL",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Delhi",
+    "waterLevelThresholds": {
+      "warningLevel": 204.5,
+      "dangerLevel": 205.33,
+      "extremeDangerLevel": 207.49
+    }
+  },
+  "issueTimestampSeconds": "1643070302",
+  "expirationTimestampSeconds": "1643243102",
+  "hasFlooding": false
+}

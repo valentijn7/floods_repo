@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Chamoli",
+    "gaugeStationName": "Karanprayag",
+    "stationId": "017-HGDDDN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Alaknanda/Pinder",
+    "state": "Uttarakhand",
+    "waterLevelThresholds": {
+      "warningLevel": 772.0,
+      "dangerLevel": 773.0,
+      "extremeDangerLevel": 774.05
+    }
+  },
+  "issueTimestampSeconds": "1643070322",
+  "expirationTimestampSeconds": "1643243122",
+  "hasFlooding": false
+}

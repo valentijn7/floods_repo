@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Udupi",
+    "gaugeStationName": "Yennehole",
+    "stationId": "030CDBNG",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Swarna/Yennehole",
+    "state": "Karnataka",
+    "waterLevelThresholds": {
+      "warningLevel": 20.5,
+      "dangerLevel": 23.0,
+      "extremeDangerLevel": 25.115
+    }
+  },
+  "issueTimestampSeconds": "1643070258",
+  "expirationTimestampSeconds": "1643243058",
+  "hasFlooding": false
+}

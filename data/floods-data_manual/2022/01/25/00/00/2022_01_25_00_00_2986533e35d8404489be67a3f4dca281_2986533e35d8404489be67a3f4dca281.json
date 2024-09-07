@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "CUTTACK",
+    "gaugeStationName": "Naraj",
+    "stationId": "036-MDBURLA",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Mahanadi",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 25.41,
+      "dangerLevel": 26.41,
+      "extremeDangerLevel": 27.61
+    }
+  },
+  "issueTimestampSeconds": "1643070347",
+  "expirationTimestampSeconds": "1643243147",
+  "hasFlooding": false
+}

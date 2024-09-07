@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Davanagere",
+    "gaugeStationName": "BYALADAHALLI",
+    "stationId": "005-cdbng",
+    "waterLevelThresholds": {
+      "warningLevel": 533.0,
+      "dangerLevel": 536.5,
+      "extremeDangerLevel": 538.45
+    }
+  },
+  "issueTimestampSeconds": "1643070329",
+  "expirationTimestampSeconds": "1643243129",
+  "hasFlooding": false
+}

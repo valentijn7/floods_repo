@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARRAS-PI",
+    "gaugeStationName": "PEDRINHAS",
+    "stationId": "34936000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MARATASA",
+    "waterLevelThresholds": {
+      "warningLevel": 3.7,
+      "dangerLevel": 4.2
+    }
+  },
+  "issueTimestampSeconds": "1643070367",
+  "expirationTimestampSeconds": "1643243167",
+  "hasFlooding": false
+}

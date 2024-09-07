@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Coimbatore",
+    "gaugeStationName": "Odendurai",
+    "stationId": "038-SRDCBE",
+    "waterLevelThresholds": {
+      "warningLevel": 329.0,
+      "dangerLevel": 329.5,
+      "extremeDangerLevel": 331.0
+    }
+  },
+  "issueTimestampSeconds": "1643070372",
+  "expirationTimestampSeconds": "1643243172",
+  "hasFlooding": false
+}

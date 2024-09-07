@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Dadra And Nagar Haveli",
+    "gaugeStationName": "Silvassa",
+    "stationId": "030-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Damanganga",
+    "state": "D.&NH",
+    "waterLevelThresholds": {
+      "warningLevel": 29.0,
+      "dangerLevel": 30.0,
+      "extremeDangerLevel": 37.26
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

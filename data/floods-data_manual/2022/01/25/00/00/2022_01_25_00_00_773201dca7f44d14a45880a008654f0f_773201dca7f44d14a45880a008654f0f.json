@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Panchpukuria",
+    "stationId": "SW119.1",
+    "river": "Halda",
+    "waterLevelThresholds": {
+      "warningLevel": 9.0,
+      "dangerLevel": 9.5,
+      "extremeDangerLevel": 10.5
+    }
+  },
+  "issueTimestampSeconds": "1643070317",
+  "expirationTimestampSeconds": "1643243117",
+  "hasFlooding": false
+}

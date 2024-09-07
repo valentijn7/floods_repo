@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LOHIT",
+    "gaugeStationName": "Namsai",
+    "stationId": "009-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nNoa-dehing",
+    "state": "Arunachal Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 144.8,
+      "dangerLevel": 145.8,
+      "extremeDangerLevel": 146.6
+    }
+  },
+  "issueTimestampSeconds": "1643070333",
+  "expirationTimestampSeconds": "1643243133",
+  "hasFlooding": false
+}

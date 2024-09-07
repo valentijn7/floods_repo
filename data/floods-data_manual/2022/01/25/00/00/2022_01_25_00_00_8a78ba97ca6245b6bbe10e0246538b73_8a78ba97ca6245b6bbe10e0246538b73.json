@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DIBRUGARH",
+    "gaugeStationName": "Chenimari",
+    "stationId": "013-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nBuridehing",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 101.11,
+      "dangerLevel": 102.11,
+      "extremeDangerLevel": 104.16
+    }
+  },
+  "issueTimestampSeconds": "1643070327",
+  "expirationTimestampSeconds": "1643243127",
+  "hasFlooding": false
+}

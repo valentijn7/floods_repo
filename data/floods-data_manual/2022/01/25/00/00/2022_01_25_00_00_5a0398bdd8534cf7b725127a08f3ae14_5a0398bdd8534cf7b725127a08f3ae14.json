@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GHAZIPUR",
+    "gaugeStationName": "Ghazipur",
+    "stationId": "007-MGD3VNS",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 62.1,
+      "dangerLevel": 63.1,
+      "extremeDangerLevel": 65.22
+    }
+  },
+  "issueTimestampSeconds": "1643070306",
+  "expirationTimestampSeconds": "1643243106",
+  "hasFlooding": false
+}

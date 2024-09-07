@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "HAILAKANDI",
+    "gaugeStationName": "Matizuri",
+    "stationId": "015-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Barak/Katakhal",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 19.27,
+      "dangerLevel": 20.27,
+      "extremeDangerLevel": 22.73
+    }
+  },
+  "issueTimestampSeconds": "1643070306",
+  "expirationTimestampSeconds": "1643243106",
+  "hasFlooding": false
+}

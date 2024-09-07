@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "VAISHALI",
+    "gaugeStationName": "Hajipur (Seasonal)",
+    "stationId": "011-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 49.32,
+      "dangerLevel": 50.32,
+      "extremeDangerLevel": 50.93
+    }
+  },
+  "issueTimestampSeconds": "1643070307",
+  "expirationTimestampSeconds": "1643243107",
+  "hasFlooding": false
+}

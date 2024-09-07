@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NAWADA",
+    "gaugeStationName": "Kadirganj",
+    "stationId": "015-mgd5ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Kiul/Harohar/Phalgu",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 85.0,
+      "dangerLevel": 86.0,
+      "extremeDangerLevel": 86.52
+    }
+  },
+  "issueTimestampSeconds": "1643070295",
+  "expirationTimestampSeconds": "1643243095",
+  "hasFlooding": false
+}

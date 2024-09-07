@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MURICI-AL",
+    "gaugeStationName": "MURICI - PONTE",
+    "stationId": "39760000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MUNDA\u00da",
+    "waterLevelThresholds": {
+      "warningLevel": 4.0,
+      "dangerLevel": 5.05
+    }
+  },
+  "issueTimestampSeconds": "1643070332",
+  "expirationTimestampSeconds": "1643243132",
+  "hasFlooding": false
+}

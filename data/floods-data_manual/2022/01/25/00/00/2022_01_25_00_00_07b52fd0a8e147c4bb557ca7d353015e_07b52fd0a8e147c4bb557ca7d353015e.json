@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Shahjhanpur",
+    "gaugeStationName": "Chillaghat",
+    "stationId": "017-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 99.0,
+      "dangerLevel": 100.0,
+      "extremeDangerLevel": 105.16
+    }
+  },
+  "issueTimestampSeconds": "1643070439",
+  "expirationTimestampSeconds": "1643243239",
+  "hasFlooding": false
+}

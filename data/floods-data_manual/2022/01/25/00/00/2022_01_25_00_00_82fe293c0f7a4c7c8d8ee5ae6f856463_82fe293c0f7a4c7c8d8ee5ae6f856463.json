@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GONDA",
+    "gaugeStationName": "Colonelganj",
+    "stationId": "001-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Sarju",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 104.0,
+      "dangerLevel": 105.0,
+      "extremeDangerLevel": 105.28
+    }
+  },
+  "issueTimestampSeconds": "1643070317",
+  "expirationTimestampSeconds": "1643243117",
+  "hasFlooding": false
+}

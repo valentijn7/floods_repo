@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MULUGU",
+    "gaugeStationName": "Eturunagaram",
+    "stationId": "015-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 73.32,
+      "dangerLevel": 75.82,
+      "extremeDangerLevel": 77.66
+    }
+  },
+  "issueTimestampSeconds": "1643070251",
+  "expirationTimestampSeconds": "1643243051",
+  "hasFlooding": false
+}

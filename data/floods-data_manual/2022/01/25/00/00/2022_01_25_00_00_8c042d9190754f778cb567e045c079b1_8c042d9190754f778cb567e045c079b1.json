@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Rajshahi",
+    "stationId": "SW88",
+    "river": "Ganges",
+    "waterLevelThresholds": {
+      "warningLevel": 18.0,
+      "dangerLevel": 18.5,
+      "extremeDangerLevel": 19.5
+    }
+  },
+  "issueTimestampSeconds": "1643070297",
+  "expirationTimestampSeconds": "1643243097",
+  "hasFlooding": false
+}

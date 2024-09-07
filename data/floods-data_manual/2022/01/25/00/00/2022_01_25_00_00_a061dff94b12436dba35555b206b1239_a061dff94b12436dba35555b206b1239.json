@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MEDINIPUR",
+    "gaugeStationName": "Mohanpur",
+    "stationId": "032-ADSL",
+    "publisherName": "LGBO Patna",
+    "river": "Hoogly/Kangsabati",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 24.73,
+      "dangerLevel": 25.73,
+      "extremeDangerLevel": 29.87
+    }
+  },
+  "issueTimestampSeconds": "1643070305",
+  "expirationTimestampSeconds": "1643243105",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Parbhani",
+    "gaugeStationName": "Gangahed W/L Station",
+    "stationId": "012-UGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 374.0,
+      "dangerLevel": 375.0,
+      "extremeDangerLevel": 377.57
+    }
+  },
+  "issueTimestampSeconds": "1643070252",
+  "expirationTimestampSeconds": "1643243052",
+  "hasFlooding": false
+}

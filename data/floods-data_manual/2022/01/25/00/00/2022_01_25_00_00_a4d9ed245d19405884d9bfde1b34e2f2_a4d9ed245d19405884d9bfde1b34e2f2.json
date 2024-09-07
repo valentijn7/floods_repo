@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARPETA",
+    "gaugeStationName": "Manas NH Crossing",
+    "stationId": "004-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Manas",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 47.81,
+      "dangerLevel": 48.42,
+      "extremeDangerLevel": 50.08
+    }
+  },
+  "issueTimestampSeconds": "1643070275",
+  "expirationTimestampSeconds": "1643243075",
+  "hasFlooding": false
+}

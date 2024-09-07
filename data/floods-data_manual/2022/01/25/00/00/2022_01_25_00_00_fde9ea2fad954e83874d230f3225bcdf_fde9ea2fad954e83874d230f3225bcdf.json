@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "S\u00c3O BORJA-RS",
+    "gaugeStationName": "PASSO S\u00c3O BORJA",
+    "stationId": "75780000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO URUGUAI",
+    "waterLevelThresholds": {
+      "warningLevel": 8.0,
+      "dangerLevel": 10.0
+    }
+  },
+  "issueTimestampSeconds": "1643070296",
+  "expirationTimestampSeconds": "1643243096",
+  "hasFlooding": false
+}

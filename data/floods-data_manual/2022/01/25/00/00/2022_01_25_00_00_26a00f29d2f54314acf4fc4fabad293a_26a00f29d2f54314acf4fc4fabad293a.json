@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Thane",
+    "gaugeStationName": "Badlapur",
+    "stationId": "014-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Ulhas",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 16.5,
+      "dangerLevel": 17.5,
+      "extremeDangerLevel": 26.162
+    }
+  },
+  "issueTimestampSeconds": "1643070264",
+  "expirationTimestampSeconds": "1643243064",
+  "hasFlooding": false
+}

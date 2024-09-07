@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MANDLA",
+    "gaugeStationName": "Mandla",
+    "stationId": "010-NDBHP",
+    "publisherName": "Narmada Basin Organisation Bhopal",
+    "river": "Narmada",
+    "state": "Madhya Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 437.2,
+      "dangerLevel": 437.8,
+      "extremeDangerLevel": 439.4
+    }
+  },
+  "issueTimestampSeconds": "1643070417",
+  "expirationTimestampSeconds": "1643243217",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NELLORE",
+    "gaugeStationName": "Nellore Anicut",
+    "stationId": "005-hydchennai",
+    "waterLevelThresholds": {
+      "warningLevel": 15.91,
+      "dangerLevel": 17.28,
+      "extremeDangerLevel": 18.7
+    }
+  },
+  "issueTimestampSeconds": "1643070332",
+  "expirationTimestampSeconds": "1643243132",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MADHUBANI",
+    "gaugeStationName": "Jhanjharpur",
+    "stationId": "021-MGD4PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Kosi/Kamla-Balan",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 49.0,
+      "dangerLevel": 50.0,
+      "extremeDangerLevel": 53.11
+    }
+  },
+  "issueTimestampSeconds": "1643070354",
+  "expirationTimestampSeconds": "1643243154",
+  "hasFlooding": false
+}

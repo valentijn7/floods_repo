@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Hardinge-RB",
+    "stationId": "SW90",
+    "river": "Ganges",
+    "waterLevelThresholds": {
+      "warningLevel": 13.75,
+      "dangerLevel": 14.25,
+      "extremeDangerLevel": 15.25
+    }
+  },
+  "issueTimestampSeconds": "1643070303",
+  "expirationTimestampSeconds": "1643243103",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

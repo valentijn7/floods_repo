@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JALPAIGURI",
+    "gaugeStationName": "Hasimara",
+    "stationId": "029-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Torsa",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 116.3,
+      "dangerLevel": 116.9,
+      "extremeDangerLevel": 118.5
+    }
+  },
+  "issueTimestampSeconds": "1643070311",
+  "expirationTimestampSeconds": "1643243111",
+  "hasFlooding": false
+}

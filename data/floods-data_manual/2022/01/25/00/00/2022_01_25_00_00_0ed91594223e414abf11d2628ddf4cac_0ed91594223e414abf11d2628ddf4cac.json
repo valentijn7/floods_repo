@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JALPAIGURI",
+    "gaugeStationName": "Domohani",
+    "stationId": "022-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Teesta",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 85.65,
+      "dangerLevel": 85.95,
+      "extremeDangerLevel": 89.3
+    }
+  },
+  "issueTimestampSeconds": "1643070305",
+  "expirationTimestampSeconds": "1643243105",
+  "hasFlooding": false
+}

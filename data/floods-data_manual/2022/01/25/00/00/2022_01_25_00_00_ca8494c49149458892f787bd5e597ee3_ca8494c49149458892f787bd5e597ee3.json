@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Pune",
+    "gaugeStationName": "Dhond",
+    "stationId": "016-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna/Bhima",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 504.0,
+      "dangerLevel": 505.0,
+      "extremeDangerLevel": 510.01
+    }
+  },
+  "issueTimestampSeconds": "1643070278",
+  "expirationTimestampSeconds": "1643243078",
+  "hasFlooding": false
+}

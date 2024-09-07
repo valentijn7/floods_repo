@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOKRAJHAR",
+    "gaugeStationName": "Kokrajhar",
+    "stationId": "039LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Gaurang",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 41.85,
+      "dangerLevel": 42.85,
+      "extremeDangerLevel": 43.6
+    }
+  },
+  "issueTimestampSeconds": "1643070317",
+  "expirationTimestampSeconds": "1643243117",
+  "hasFlooding": false
+}

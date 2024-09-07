@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOTTAYAM",
+    "gaugeStationName": "KALATHUKADAVU",
+    "stationId": "028-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 32.8,
+      "dangerLevel": 33.8
+    }
+  },
+  "issueTimestampSeconds": "1643070306",
+  "expirationTimestampSeconds": "1643243106",
+  "hasFlooding": false
+}

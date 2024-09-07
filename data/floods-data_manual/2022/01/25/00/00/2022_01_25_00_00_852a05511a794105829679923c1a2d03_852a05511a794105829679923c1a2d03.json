@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JAGATSINGHAPUR",
+    "gaugeStationName": "Alipingal",
+    "stationId": "037-MDBURLA",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Mahanadi/Devi",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 10.85,
+      "dangerLevel": 11.76,
+      "extremeDangerLevel": 13.11
+    }
+  },
+  "issueTimestampSeconds": "1643070400",
+  "expirationTimestampSeconds": "1643243200",
+  "hasFlooding": false
+}

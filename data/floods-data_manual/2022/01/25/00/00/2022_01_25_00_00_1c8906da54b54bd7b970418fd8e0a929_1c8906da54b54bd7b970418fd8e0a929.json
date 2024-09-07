@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SOUTH TRIPURA",
+    "gaugeStationName": "Belonia",
+    "stationId": "013-MDSIL",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Meghna/\nMuhari",
+    "state": "Tripura",
+    "waterLevelThresholds": {
+      "warningLevel": 14.0,
+      "dangerLevel": 15.0,
+      "extremeDangerLevel": 16.98
+    }
+  },
+  "issueTimestampSeconds": "1643070357",
+  "expirationTimestampSeconds": "1643243157",
+  "hasFlooding": false
+}

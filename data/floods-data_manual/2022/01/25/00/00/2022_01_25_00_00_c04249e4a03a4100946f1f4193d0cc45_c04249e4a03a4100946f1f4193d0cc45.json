@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARPETA",
+    "gaugeStationName": "Mathanguri",
+    "stationId": "001-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Beki",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 98.1,
+      "dangerLevel": 99.1,
+      "extremeDangerLevel": 100.28
+    }
+  },
+  "issueTimestampSeconds": "1643070332",
+  "expirationTimestampSeconds": "1643243132",
+  "hasFlooding": false
+}

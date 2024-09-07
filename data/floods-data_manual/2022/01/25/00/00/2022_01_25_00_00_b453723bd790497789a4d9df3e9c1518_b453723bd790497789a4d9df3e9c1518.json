@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARABANKI",
+    "gaugeStationName": "Elginbridge",
+    "stationId": "010-MGD1LKn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 105.07,
+      "dangerLevel": 106.07,
+      "extremeDangerLevel": 107.616
+    }
+  },
+  "issueTimestampSeconds": "1643070361",
+  "expirationTimestampSeconds": "1643243161",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Hassan",
+    "gaugeStationName": "THIMMANAHALLI",
+    "stationId": "021-CDBNG",
+    "waterLevelThresholds": {
+      "warningLevel": 907.0,
+      "dangerLevel": 912.0,
+      "extremeDangerLevel": 912.725
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

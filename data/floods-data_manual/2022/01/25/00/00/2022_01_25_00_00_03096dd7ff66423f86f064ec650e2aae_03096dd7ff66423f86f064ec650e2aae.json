@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Chamoli",
+    "gaugeStationName": "Ganga Nagar",
+    "stationId": "012-HGDDDN",
+    "waterLevelThresholds": {
+      "warningLevel": 803.0,
+      "dangerLevel": 804.0
+    }
+  },
+  "issueTimestampSeconds": "1643070259",
+  "expirationTimestampSeconds": "1643243059",
+  "hasFlooding": false
+}

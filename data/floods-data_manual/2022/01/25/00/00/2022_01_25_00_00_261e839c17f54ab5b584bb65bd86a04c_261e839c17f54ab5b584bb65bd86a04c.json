@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Sureshswar",
+    "stationId": "SW95",
+    "river": "Padma",
+    "waterLevelThresholds": {
+      "warningLevel": 3.9499998,
+      "dangerLevel": 4.45,
+      "extremeDangerLevel": 5.45
+    }
+  },
+  "issueTimestampSeconds": "1643070415",
+  "expirationTimestampSeconds": "1643243215",
+  "hasFlooding": false
+}

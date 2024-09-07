@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURBA CHAMPARAN",
+    "gaugeStationName": "Lalbegiaghat",
+    "stationId": "002-MGD4PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Burhi Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 62.2,
+      "dangerLevel": 63.2,
+      "extremeDangerLevel": 67.09
+    }
+  },
+  "issueTimestampSeconds": "1643070324",
+  "expirationTimestampSeconds": "1643243124",
+  "hasFlooding": false
+}

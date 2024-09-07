@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOCHBIHAR",
+    "gaugeStationName": "Mekhliganj",
+    "stationId": "023-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Teesta",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 65.45,
+      "dangerLevel": 65.95,
+      "extremeDangerLevel": 66.45
+    }
+  },
+  "issueTimestampSeconds": "1643070282",
+  "expirationTimestampSeconds": "1643243082",
+  "hasFlooding": false
+}

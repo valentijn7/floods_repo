@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ETAWAH",
+    "gaugeStationName": "Etawah",
+    "stationId": "002-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 120.92,
+      "dangerLevel": 121.92,
+      "extremeDangerLevel": 126.13
+    }
+  },
+  "issueTimestampSeconds": "1643070331",
+  "expirationTimestampSeconds": "1643243131",
+  "hasFlooding": false
+}

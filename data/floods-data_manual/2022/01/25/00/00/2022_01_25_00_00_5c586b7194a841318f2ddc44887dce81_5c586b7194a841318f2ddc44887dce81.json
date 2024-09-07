@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Shahjhanpur",
+    "gaugeStationName": "Dabri",
+    "stationId": "010-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ramganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 136.3,
+      "dangerLevel": 137.3,
+      "extremeDangerLevel": 139.695
+    }
+  },
+  "issueTimestampSeconds": "1643070359",
+  "expirationTimestampSeconds": "1643243159",
+  "hasFlooding": false
+}

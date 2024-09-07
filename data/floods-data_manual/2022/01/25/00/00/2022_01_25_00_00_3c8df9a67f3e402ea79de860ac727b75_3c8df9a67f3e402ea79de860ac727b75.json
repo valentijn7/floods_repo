@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Dohazari",
+    "stationId": "SW248",
+    "river": "Sangu",
+    "waterLevelThresholds": {
+      "warningLevel": 6.5,
+      "dangerLevel": 7.0,
+      "extremeDangerLevel": 8.0
+    }
+  },
+  "issueTimestampSeconds": "1643070301",
+  "expirationTimestampSeconds": "1643243101",
+  "hasFlooding": false
+}

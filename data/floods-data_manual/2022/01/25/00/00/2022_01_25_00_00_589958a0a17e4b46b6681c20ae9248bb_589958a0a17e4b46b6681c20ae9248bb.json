@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIBSAGAR",
+    "gaugeStationName": "Nanglamoraghat",
+    "stationId": "016-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nDesang",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 93.46,
+      "dangerLevel": 94.46,
+      "extremeDangerLevel": 96.49
+    }
+  },
+  "issueTimestampSeconds": "1643070403",
+  "expirationTimestampSeconds": "1643243203",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Unakoti",
+    "gaugeStationName": "KAILASHAHAR GDSQ SITE",
+    "stationId": "014-MDSIL",
+    "waterLevelThresholds": {
+      "warningLevel": 24.34,
+      "dangerLevel": 25.34,
+      "extremeDangerLevel": 25.95
+    }
+  },
+  "issueTimestampSeconds": "1643070310",
+  "expirationTimestampSeconds": "1643243110",
+  "hasFlooding": false
+}

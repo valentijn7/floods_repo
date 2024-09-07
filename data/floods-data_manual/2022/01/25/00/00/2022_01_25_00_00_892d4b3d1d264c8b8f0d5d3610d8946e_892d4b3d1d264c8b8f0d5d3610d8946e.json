@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LUCKNOW",
+    "gaugeStationName": "Bani",
+    "stationId": "015-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Gomti/Sai",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 114.5,
+      "dangerLevel": 115.5,
+      "extremeDangerLevel": 116.5
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

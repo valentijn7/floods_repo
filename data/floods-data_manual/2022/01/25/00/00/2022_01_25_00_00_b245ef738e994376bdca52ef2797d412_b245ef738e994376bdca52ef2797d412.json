@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Sepahijala",
+    "gaugeStationName": "Gajaraia",
+    "stationId": "006-MDSIL",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Meghna/\nBurima",
+    "state": "Tripura",
+    "waterLevelThresholds": {
+      "warningLevel": 8.6,
+      "dangerLevel": 9.2,
+      "extremeDangerLevel": 11.15
+    }
+  },
+  "issueTimestampSeconds": "1643070322",
+  "expirationTimestampSeconds": "1643243122",
+  "hasFlooding": false
+}

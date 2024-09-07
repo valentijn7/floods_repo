@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Maharajganj",
+    "gaugeStationName": "Trimohinighat",
+    "stationId": "021-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Rapti/Rohin",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 81.44,
+      "dangerLevel": 82.44,
+      "extremeDangerLevel": 85.48
+    }
+  },
+  "issueTimestampSeconds": "1643070365",
+  "expirationTimestampSeconds": "1643243165",
+  "hasFlooding": false
+}

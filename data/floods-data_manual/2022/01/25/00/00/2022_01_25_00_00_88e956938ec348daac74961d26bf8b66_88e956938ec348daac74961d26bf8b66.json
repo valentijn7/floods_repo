@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Lama",
+    "stationId": "SW203",
+    "river": "Matamuhuri",
+    "waterLevelThresholds": {
+      "warningLevel": 11.75,
+      "dangerLevel": 12.25,
+      "extremeDangerLevel": 13.25
+    }
+  },
+  "issueTimestampSeconds": "1643070302",
+  "expirationTimestampSeconds": "1643243102",
+  "hasFlooding": false
+}

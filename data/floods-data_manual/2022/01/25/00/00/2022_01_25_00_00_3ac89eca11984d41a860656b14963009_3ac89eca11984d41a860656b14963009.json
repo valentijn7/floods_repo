@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Bharuch",
+    "gaugeStationName": "Bharuch",
+    "stationId": "004-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Narmada",
+    "state": "Gujarat",
+    "waterLevelThresholds": {
+      "warningLevel": 6.71,
+      "dangerLevel": 7.31,
+      "extremeDangerLevel": 12.65
+    }
+  },
+  "issueTimestampSeconds": "1643070349",
+  "expirationTimestampSeconds": "1643243149",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GHAZIABAD",
+    "gaugeStationName": "Garhamukteshwar",
+    "stationId": "017-MGD2LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 198.33,
+      "dangerLevel": 199.33,
+      "extremeDangerLevel": 199.9
+    }
+  },
+  "issueTimestampSeconds": "1643070298",
+  "expirationTimestampSeconds": "1643243098",
+  "hasFlooding": false
+}

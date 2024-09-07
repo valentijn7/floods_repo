@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DIBRUGARH",
+    "gaugeStationName": "Naharkatia",
+    "stationId": "012-ubddib",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Buridehing",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 119.4,
+      "dangerLevel": 120.4,
+      "extremeDangerLevel": 122.69
+    }
+  },
+  "issueTimestampSeconds": "1643070360",
+  "expirationTimestampSeconds": "1643243160",
+  "hasFlooding": false
+}

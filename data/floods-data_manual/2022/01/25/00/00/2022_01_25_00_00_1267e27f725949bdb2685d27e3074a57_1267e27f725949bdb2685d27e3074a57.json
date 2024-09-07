@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "C-Nawabganj",
+    "stationId": "SW211.5",
+    "river": "Mohananda",
+    "waterLevelThresholds": {
+      "warningLevel": 20.5,
+      "dangerLevel": 21.0,
+      "extremeDangerLevel": 22.0
+    }
+  },
+  "issueTimestampSeconds": "1643070398",
+  "expirationTimestampSeconds": "1643243198",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BRASIL\u00c9IA-AC",
+    "gaugeStationName": "BRASIL\u00c9IA",
+    "stationId": "13470000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO ACRE",
+    "waterLevelThresholds": {
+      "warningLevel": 9.8,
+      "dangerLevel": 11.4
+    }
+  },
+  "issueTimestampSeconds": "1643070256",
+  "expirationTimestampSeconds": "1643243056",
+  "hasFlooding": false
+}

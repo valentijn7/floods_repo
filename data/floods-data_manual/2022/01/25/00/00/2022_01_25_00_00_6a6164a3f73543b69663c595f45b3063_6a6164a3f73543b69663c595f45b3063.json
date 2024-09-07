@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PRAYGRAJ",
+    "gaugeStationName": "Phaphamau",
+    "stationId": "002-MGD3VNS",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 83.73,
+      "dangerLevel": 84.73,
+      "extremeDangerLevel": 87.98
+    }
+  },
+  "issueTimestampSeconds": "1643070457",
+  "expirationTimestampSeconds": "1643243257",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PALAKKAD",
+    "gaugeStationName": "Kumbidi",
+    "stationId": "008-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Bharathapuzha",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 8.2,
+      "dangerLevel": 9.2,
+      "extremeDangerLevel": 11.27
+    }
+  },
+  "issueTimestampSeconds": "1643070252",
+  "expirationTimestampSeconds": "1643243052",
+  "hasFlooding": false
+}

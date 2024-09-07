@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PALAMAU",
+    "gaugeStationName": "Garrauli",
+    "stationId": "011-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna/Betwa/Dhasan",
+    "state": "Madhya Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 203.0,
+      "dangerLevel": 204.0,
+      "extremeDangerLevel": 210.5
+    }
+  },
+  "issueTimestampSeconds": "1643070318",
+  "expirationTimestampSeconds": "1643243118",
+  "hasFlooding": false
+}

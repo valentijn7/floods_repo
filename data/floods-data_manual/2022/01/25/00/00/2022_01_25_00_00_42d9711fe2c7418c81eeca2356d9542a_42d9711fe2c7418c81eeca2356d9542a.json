@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Naogaon",
+    "stationId": "SW133",
+    "river": "Little Jamuna",
+    "waterLevelThresholds": {
+      "warningLevel": 14.75,
+      "dangerLevel": 15.25,
+      "extremeDangerLevel": 16.25
+    }
+  },
+  "issueTimestampSeconds": "1643070374",
+  "expirationTimestampSeconds": "1643243174",
+  "hasFlooding": false
+}

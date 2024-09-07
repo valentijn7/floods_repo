@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MIRZAPUR",
+    "gaugeStationName": "Mirzapur",
+    "stationId": "005-mgd3vns",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 76.724,
+      "dangerLevel": 77.724,
+      "extremeDangerLevel": 80.34
+    }
+  },
+  "issueTimestampSeconds": "1643070427",
+  "expirationTimestampSeconds": "1643243227",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PATNA",
+    "gaugeStationName": "Gandhighat",
+    "stationId": "003-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 47.6,
+      "dangerLevel": 48.6,
+      "extremeDangerLevel": 50.52
+    }
+  },
+  "issueTimestampSeconds": "1643070317",
+  "expirationTimestampSeconds": "1643243117",
+  "hasFlooding": false
+}

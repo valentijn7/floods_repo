@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DEORIA",
+    "gaugeStationName": "Hetimpur",
+    "stationId": "016-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Little Gandak",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 77.42,
+      "dangerLevel": 78.42,
+      "extremeDangerLevel": 79.64
+    }
+  },
+  "issueTimestampSeconds": "1643070389",
+  "expirationTimestampSeconds": "1643243189",
+  "hasFlooding": false
+}

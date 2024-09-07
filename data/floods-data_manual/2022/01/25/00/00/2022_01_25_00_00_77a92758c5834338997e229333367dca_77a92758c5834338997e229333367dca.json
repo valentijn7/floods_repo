@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GOALPARA",
+    "gaugeStationName": "Goalpara",
+    "stationId": "002-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 35.27,
+      "dangerLevel": 36.27,
+      "extremeDangerLevel": 37.43
+    }
+  },
+  "issueTimestampSeconds": "1643070440",
+  "expirationTimestampSeconds": "1643243240",
+  "hasFlooding": false
+}

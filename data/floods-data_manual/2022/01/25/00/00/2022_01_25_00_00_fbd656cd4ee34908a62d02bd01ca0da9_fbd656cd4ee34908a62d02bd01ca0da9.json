@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PURI",
+    "gaugeStationName": "Nimapara",
+    "stationId": "039-mdburla",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Mahanadi/ Kushabhadr",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 9.85,
+      "dangerLevel": 10.76,
+      "extremeDangerLevel": 11.6
+    }
+  },
+  "issueTimestampSeconds": "1643070424",
+  "expirationTimestampSeconds": "1643243224",
+  "hasFlooding": false
+}

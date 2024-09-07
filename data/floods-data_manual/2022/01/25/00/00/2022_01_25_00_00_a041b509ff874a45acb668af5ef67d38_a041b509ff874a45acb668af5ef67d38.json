@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PORTO VELHO-RO",
+    "gaugeStationName": "PORTO VELHO",
+    "stationId": "15400000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MADEIRA",
+    "waterLevelThresholds": {
+      "warningLevel": 15.0,
+      "dangerLevel": 17.0
+    }
+  },
+  "issueTimestampSeconds": "1643070262",
+  "expirationTimestampSeconds": "1643243062",
+  "hasFlooding": false
+}

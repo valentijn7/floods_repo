@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Goalondo",
+    "stationId": "SW91.9R",
+    "river": "Ganges",
+    "waterLevelThresholds": {
+      "warningLevel": 8.15,
+      "dangerLevel": 8.65,
+      "extremeDangerLevel": 9.65
+    }
+  },
+  "issueTimestampSeconds": "1643070435",
+  "expirationTimestampSeconds": "1643243235",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

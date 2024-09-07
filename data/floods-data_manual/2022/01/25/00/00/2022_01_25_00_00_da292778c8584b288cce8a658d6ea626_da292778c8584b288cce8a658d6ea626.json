@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Sangli",
+    "gaugeStationName": "Arjunwad (Seasonal)",
+    "stationId": "004-UKDPUNE",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 542.07,
+      "dangerLevel": 543.29,
+      "extremeDangerLevel": 544.28
+    }
+  },
+  "issueTimestampSeconds": "1643070345",
+  "expirationTimestampSeconds": "1643243145",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Bhandara",
+    "gaugeStationName": "Bhandara",
+    "stationId": "006-WGDNGP",
+    "publisherName": "MCO, Nagpur",
+    "river": "Godavari/Pranhita/Wainganga",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 245.5,
+      "dangerLevel": 245.7,
+      "extremeDangerLevel": 250.9
+    }
+  },
+  "issueTimestampSeconds": "1643070300",
+  "expirationTimestampSeconds": "1643243100",
+  "hasFlooding": false
+}

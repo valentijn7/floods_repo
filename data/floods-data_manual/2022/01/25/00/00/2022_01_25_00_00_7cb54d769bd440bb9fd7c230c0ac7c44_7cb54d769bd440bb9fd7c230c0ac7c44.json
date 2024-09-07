@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GOLAGHAT",
+    "gaugeStationName": "Numaligarh",
+    "stationId": "024-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nDhansiri(South)",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 77.42,
+      "dangerLevel": 78.42,
+      "extremeDangerLevel": 80.16
+    }
+  },
+  "issueTimestampSeconds": "1643070278",
+  "expirationTimestampSeconds": "1643243078",
+  "hasFlooding": false
+}

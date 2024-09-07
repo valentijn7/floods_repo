@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "GONDA",
+    "gaugeStationName": "Chandradeepghat",
+    "stationId": "014-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Kwano",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 87.84,
+      "dangerLevel": 88.84,
+      "extremeDangerLevel": 92.04
+    }
+  },
+  "issueTimestampSeconds": "1643070302",
+  "expirationTimestampSeconds": "1643243102",
+  "hasFlooding": false
+}

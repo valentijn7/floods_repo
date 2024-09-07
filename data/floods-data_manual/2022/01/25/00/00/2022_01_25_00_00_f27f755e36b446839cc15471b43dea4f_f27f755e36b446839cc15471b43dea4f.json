@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MU\u00c7UM-RS",
+    "gaugeStationName": "MU\u00c7UM",
+    "stationId": "86510000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO TAQUARI",
+    "waterLevelThresholds": {
+      "warningLevel": 9.0,
+      "dangerLevel": 16.0
+    }
+  },
+  "issueTimestampSeconds": "1643070336",
+  "expirationTimestampSeconds": "1643243136",
+  "hasFlooding": false
+}

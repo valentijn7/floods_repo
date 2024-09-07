@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LAKHIMPUR",
+    "gaugeStationName": "Ranganadi      NT-Road\nCrossing",
+    "stationId": "36-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nRanganadi",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 93.81,
+      "dangerLevel": 94.81,
+      "extremeDangerLevel": 95.92
+    }
+  },
+  "issueTimestampSeconds": "1643070315",
+  "expirationTimestampSeconds": "1643243115",
+  "hasFlooding": false
+}

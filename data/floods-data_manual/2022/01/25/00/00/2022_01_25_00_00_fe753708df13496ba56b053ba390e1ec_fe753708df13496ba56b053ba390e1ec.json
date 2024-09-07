@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Shahjhanpur",
+    "gaugeStationName": "Banda",
+    "stationId": "014-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna/Ken",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 103.0,
+      "dangerLevel": 104.0,
+      "extremeDangerLevel": 113.29
+    }
+  },
+  "issueTimestampSeconds": "1643070281",
+  "expirationTimestampSeconds": "1643243081",
+  "hasFlooding": false
+}

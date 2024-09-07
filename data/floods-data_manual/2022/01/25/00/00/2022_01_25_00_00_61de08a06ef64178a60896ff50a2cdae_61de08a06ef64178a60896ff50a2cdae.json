@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Udupi",
+    "gaugeStationName": "Haladi",
+    "stationId": "028CDBNG",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Haladi",
+    "state": "Karnataka",
+    "waterLevelThresholds": {
+      "warningLevel": 6.5,
+      "dangerLevel": 8.0,
+      "extremeDangerLevel": 9.05
+    }
+  },
+  "issueTimestampSeconds": "1643070444",
+  "expirationTimestampSeconds": "1643243244",
+  "hasFlooding": false
+}

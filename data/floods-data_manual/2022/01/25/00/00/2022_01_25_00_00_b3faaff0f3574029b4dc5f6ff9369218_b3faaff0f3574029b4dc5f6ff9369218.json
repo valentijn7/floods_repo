@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Dalia",
+    "stationId": "SW291.5R",
+    "river": "Teesta",
+    "waterLevelThresholds": {
+      "warningLevel": 52.1,
+      "dangerLevel": 52.6,
+      "extremeDangerLevel": 53.6
+    }
+  },
+  "issueTimestampSeconds": "1643070354",
+  "expirationTimestampSeconds": "1643243154",
+  "hasFlooding": false
+}

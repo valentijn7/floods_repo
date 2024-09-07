@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "COLATINA-ES",
+    "gaugeStationName": "COLATINA CORPO DE BOMBEIROS",
+    "stationId": "56994510",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO DOCE",
+    "waterLevelThresholds": {
+      "warningLevel": 5.7,
+      "dangerLevel": 6.2
+    }
+  },
+  "issueTimestampSeconds": "1643070297",
+  "expirationTimestampSeconds": "1643243097",
+  "hasFlooding": false
+}

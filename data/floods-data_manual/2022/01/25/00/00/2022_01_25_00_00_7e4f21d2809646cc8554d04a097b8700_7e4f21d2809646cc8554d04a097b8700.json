@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KATIHAR",
+    "gaugeStationName": "Jhawa (Seasonal)",
+    "stationId": "031-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Mahananda",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 30.4,
+      "dangerLevel": 31.4,
+      "extremeDangerLevel": 34.07
+    }
+  },
+  "issueTimestampSeconds": "1643070318",
+  "expirationTimestampSeconds": "1643243118",
+  "hasFlooding": false
+}

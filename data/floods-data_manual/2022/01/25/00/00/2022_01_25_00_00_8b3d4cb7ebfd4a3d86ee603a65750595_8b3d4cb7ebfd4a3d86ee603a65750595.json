@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "EAST GODAVARI",
+    "gaugeStationName": "Chinturu",
+    "stationId": "030-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Sabari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 41.5,
+      "dangerLevel": 43.0,
+      "extremeDangerLevel": 44.91
+    }
+  },
+  "issueTimestampSeconds": "1643070293",
+  "expirationTimestampSeconds": "1643243093",
+  "hasFlooding": false
+}

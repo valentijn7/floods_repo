@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Singra",
+    "stationId": "SW147.5",
+    "river": "Gur",
+    "waterLevelThresholds": {
+      "warningLevel": 12.15,
+      "dangerLevel": 12.65,
+      "extremeDangerLevel": 13.65
+    }
+  },
+  "issueTimestampSeconds": "1643070304",
+  "expirationTimestampSeconds": "1643243104",
+  "hasFlooding": false
+}

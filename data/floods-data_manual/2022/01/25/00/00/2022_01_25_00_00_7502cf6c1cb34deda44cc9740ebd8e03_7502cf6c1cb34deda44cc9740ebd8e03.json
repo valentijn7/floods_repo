@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KARNAL",
+    "gaugeStationName": "Karnal",
+    "stationId": "011-UYDDEL",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Haryana",
+    "waterLevelThresholds": {
+      "warningLevel": 248.8,
+      "dangerLevel": 249.5,
+      "extremeDangerLevel": 250.07
+    }
+  },
+  "issueTimestampSeconds": "1643070376",
+  "expirationTimestampSeconds": "1643243176",
+  "hasFlooding": false
+}

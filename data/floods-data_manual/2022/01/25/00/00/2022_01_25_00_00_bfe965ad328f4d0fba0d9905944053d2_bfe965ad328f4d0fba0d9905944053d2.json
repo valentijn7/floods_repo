@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "URUGUAIANA-RS",
+    "gaugeStationName": "URUGUAIANA",
+    "stationId": "77150000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO URUGUAI",
+    "waterLevelThresholds": {
+      "warningLevel": 7.5,
+      "dangerLevel": 8.5
+    }
+  },
+  "issueTimestampSeconds": "1643070268",
+  "expirationTimestampSeconds": "1643243068",
+  "hasFlooding": false
+}

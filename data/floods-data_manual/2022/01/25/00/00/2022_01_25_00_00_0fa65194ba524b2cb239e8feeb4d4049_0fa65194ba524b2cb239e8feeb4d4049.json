@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BASTAR",
+    "gaugeStationName": "Jagdalpur",
+    "stationId": "006-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari/Indravati",
+    "state": "Chhattishgarh",
+    "waterLevelThresholds": {
+      "warningLevel": 539.5,
+      "dangerLevel": 540.8,
+      "extremeDangerLevel": 544.68
+    }
+  },
+  "issueTimestampSeconds": "1643070298",
+  "expirationTimestampSeconds": "1643243098",
+  "hasFlooding": false
+}

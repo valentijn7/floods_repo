@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "RIO BRANCO-AC",
+    "gaugeStationName": "RIO BRANCO",
+    "stationId": "13600002",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO ACRE",
+    "waterLevelThresholds": {
+      "warningLevel": 13.5,
+      "dangerLevel": 14.0
+    }
+  },
+  "issueTimestampSeconds": "1643070266",
+  "expirationTimestampSeconds": "1643243066",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SOUTH WEST",
+    "gaugeStationName": "Dhansa",
+    "stationId": "022-UYDDEL",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna/Sahibi",
+    "state": "Delhi",
+    "waterLevelThresholds": {
+      "warningLevel": 211.44,
+      "dangerLevel": 212.44,
+      "extremeDangerLevel": 213.58
+    }
+  },
+  "issueTimestampSeconds": "1643070291",
+  "expirationTimestampSeconds": "1643243091",
+  "hasFlooding": false
+}

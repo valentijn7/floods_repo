@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Mohadevpur",
+    "stationId": "SW145",
+    "river": "Atrai",
+    "waterLevelThresholds": {
+      "warningLevel": 18.09,
+      "dangerLevel": 18.59,
+      "extremeDangerLevel": 19.59
+    }
+  },
+  "issueTimestampSeconds": "1643070371",
+  "expirationTimestampSeconds": "1643243171",
+  "hasFlooding": false
+}

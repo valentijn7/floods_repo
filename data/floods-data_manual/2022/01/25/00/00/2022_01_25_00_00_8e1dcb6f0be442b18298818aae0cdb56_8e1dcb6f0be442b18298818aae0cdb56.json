@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Tehri Garhwal",
+    "gaugeStationName": "Deoprayag (B)",
+    "stationId": "010-HGDDDN",
+    "waterLevelThresholds": {
+      "warningLevel": 462.0,
+      "dangerLevel": 463.0,
+      "extremeDangerLevel": 474.5
+    }
+  },
+  "issueTimestampSeconds": "1643070348",
+  "expirationTimestampSeconds": "1643243148",
+  "hasFlooding": false
+}

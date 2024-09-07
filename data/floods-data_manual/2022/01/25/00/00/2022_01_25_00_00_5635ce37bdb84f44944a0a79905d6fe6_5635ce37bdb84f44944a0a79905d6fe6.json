@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Bhandara",
+    "gaugeStationName": "Pauni",
+    "stationId": "009-WGDNGP",
+    "publisherName": "MCO, Nagpur",
+    "river": "Godavari/Pranhita/Wainganga/Wainganga",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 226.73,
+      "dangerLevel": 227.73,
+      "extremeDangerLevel": 237.12
+    }
+  },
+  "issueTimestampSeconds": "1643070385",
+  "expirationTimestampSeconds": "1643243185",
+  "hasFlooding": false
+}

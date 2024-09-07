@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LINHARES-ES",
+    "gaugeStationName": "LINHARES CAIS DO PORTO",
+    "stationId": "56998200",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO DOCE",
+    "waterLevelThresholds": {
+      "warningLevel": 3.0,
+      "dangerLevel": 3.45
+    }
+  },
+  "issueTimestampSeconds": "1643070316",
+  "expirationTimestampSeconds": "1643243116",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Thakurgaon",
+    "stationId": "SW285",
+    "river": "Tangon",
+    "waterLevelThresholds": {
+      "warningLevel": 49.9,
+      "dangerLevel": 50.4,
+      "extremeDangerLevel": 51.4
+    }
+  },
+  "issueTimestampSeconds": "1643070280",
+  "expirationTimestampSeconds": "1643243080",
+  "hasFlooding": false
+}

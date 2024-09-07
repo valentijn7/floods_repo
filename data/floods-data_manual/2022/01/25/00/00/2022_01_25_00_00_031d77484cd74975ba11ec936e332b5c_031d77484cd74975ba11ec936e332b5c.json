@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Raigad",
+    "gaugeStationName": "Pen",
+    "stationId": "024-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Bhogeswari",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 12.295,
+      "dangerLevel": 13.0,
+      "extremeDangerLevel": 17.0
+    }
+  },
+  "issueTimestampSeconds": "1643070393",
+  "expirationTimestampSeconds": "1643243193",
+  "hasFlooding": false
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SANTO ANT\u00d4NIO DE P\u00c1DUA-RJ",
+    "gaugeStationName": "SANTO ANT\u00d4NIO DE P\u00c1DUA II",
+    "stationId": "58790002",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO POMBA",
+    "waterLevelThresholds": {
+      "warningLevel": 2.75,
+      "dangerLevel": 3.1
+    }
+  },
+  "issueTimestampSeconds": "1643070399",
+  "expirationTimestampSeconds": "1643243199",
+  "hasFlooding": false
+}

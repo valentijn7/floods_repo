@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JHANSI",
+    "gaugeStationName": "Nautghat",
+    "stationId": "008-LYDAGRA",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna/Betwa",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 204.0,
+      "dangerLevel": 205.0,
+      "extremeDangerLevel": 207.99
+    }
+  },
+  "issueTimestampSeconds": "1643070304",
+  "expirationTimestampSeconds": "1643243104",
+  "hasFlooding": false
+}

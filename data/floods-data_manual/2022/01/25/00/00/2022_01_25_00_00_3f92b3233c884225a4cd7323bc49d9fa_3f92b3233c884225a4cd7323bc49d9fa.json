@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ERNAKULAM",
+    "gaugeStationName": "PALLIPPADY",
+    "stationId": "034-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 23.8,
+      "dangerLevel": 24.8
+    }
+  },
+  "issueTimestampSeconds": "1643070292",
+  "expirationTimestampSeconds": "1643243092",
+  "hasFlooding": false
+}

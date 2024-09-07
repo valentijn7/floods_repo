@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Haveri",
+    "gaugeStationName": "Haralahalli",
+    "stationId": "003-CDBNG",
+    "waterLevelThresholds": {
+      "warningLevel": 514.5,
+      "dangerLevel": 517.0,
+      "extremeDangerLevel": 518.346
+    }
+  },
+  "issueTimestampSeconds": "1643070254",
+  "expirationTimestampSeconds": "1643243054",
+  "hasFlooding": false
+}

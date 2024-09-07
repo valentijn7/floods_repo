@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NALBARI",
+    "gaugeStationName": "Pagladiya N.T.Road X-ING",
+    "stationId": "004-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Pagladiya",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 51.75,
+      "dangerLevel": 52.75,
+      "extremeDangerLevel": 55.45
+    }
+  },
+  "issueTimestampSeconds": "1643070273",
+  "expirationTimestampSeconds": "1643243073",
+  "hasFlooding": false
+}

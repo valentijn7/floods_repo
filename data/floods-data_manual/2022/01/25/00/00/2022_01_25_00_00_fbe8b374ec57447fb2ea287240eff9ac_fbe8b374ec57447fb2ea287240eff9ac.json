@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "NORTH TRIPURA",
+    "gaugeStationName": "Nutanbazar",
+    "stationId": "003-MDSIL",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Meghna/\nJuri",
+    "state": "Tripura",
+    "waterLevelThresholds": {
+      "warningLevel": 18.5,
+      "dangerLevel": 19.5,
+      "extremeDangerLevel": 20.435
+    }
+  },
+  "issueTimestampSeconds": "1643070316",
+  "expirationTimestampSeconds": "1643243116",
+  "hasFlooding": false
+}

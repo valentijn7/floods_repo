@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Redonda Island Test Site #1",
+    "stationId": "1",
+    "waterLevelThresholds": {
+      "warningLevel": 14.75,
+      "dangerLevel": 15.25,
+      "extremeDangerLevel": 16.25
+    }
+  },
+  "issueTimestampSeconds": "1643070335",
+  "expirationTimestampSeconds": "1643243135",
+  "hasFlooding": false
+}

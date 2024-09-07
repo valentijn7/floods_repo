@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "TINSUKIA",
+    "gaugeStationName": "Dholabazar",
+    "stationId": "007-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nLohit",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 127.27,
+      "dangerLevel": 128.27,
+      "extremeDangerLevel": 130.07
+    }
+  },
+  "issueTimestampSeconds": "1643070302",
+  "expirationTimestampSeconds": "1643243102",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Pankha",
+    "stationId": "SW88A",
+    "river": "Ganges",
+    "waterLevelThresholds": {
+      "warningLevel": 22.0,
+      "dangerLevel": 22.5,
+      "extremeDangerLevel": 23.5
+    }
+  },
+  "issueTimestampSeconds": "1643070294",
+  "expirationTimestampSeconds": "1643243094",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PATHANAMTHITTA",
+    "gaugeStationName": "Thumpamon",
+    "stationId": "020-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Pamba",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 9.0,
+      "dangerLevel": 10.0,
+      "extremeDangerLevel": 13.735
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MUZAFFARPUR",
+    "gaugeStationName": "Benibad",
+    "stationId": "017-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Kosi/Bagmati",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 47.68,
+      "dangerLevel": 48.68,
+      "extremeDangerLevel": 50.01
+    }
+  },
+  "issueTimestampSeconds": "1643070256",
+  "expirationTimestampSeconds": "1643243056",
+  "hasFlooding": false
+}

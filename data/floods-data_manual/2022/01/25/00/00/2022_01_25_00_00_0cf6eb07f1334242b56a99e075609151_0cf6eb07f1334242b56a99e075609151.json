@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Bahadurabad",
+    "stationId": "SW46.9L",
+    "river": "Jamuna",
+    "waterLevelThresholds": {
+      "warningLevel": 19.0,
+      "dangerLevel": 19.5,
+      "extremeDangerLevel": 20.5
+    }
+  },
+  "issueTimestampSeconds": "1643070351",
+  "expirationTimestampSeconds": "1643243151",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

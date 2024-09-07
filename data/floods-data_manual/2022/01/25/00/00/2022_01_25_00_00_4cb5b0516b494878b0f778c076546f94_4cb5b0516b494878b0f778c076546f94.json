@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SHRAWASTI",
+    "gaugeStationName": "Kakardhari",
+    "stationId": "003-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Rapti/Burthi Rapti",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 130.0,
+      "dangerLevel": 131.0,
+      "extremeDangerLevel": 132.37
+    }
+  },
+  "issueTimestampSeconds": "1643070257",
+  "expirationTimestampSeconds": "1643243057",
+  "hasFlooding": false
+}

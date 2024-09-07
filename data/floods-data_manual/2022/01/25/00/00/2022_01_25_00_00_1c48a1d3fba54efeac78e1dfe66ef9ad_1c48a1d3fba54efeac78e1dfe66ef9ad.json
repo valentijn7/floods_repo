@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "CARDOSO MOREIRA-RJ",
+    "gaugeStationName": "CARDOSO MOREIRA",
+    "stationId": "58960000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO MURIA\u00c9",
+    "waterLevelThresholds": {
+      "warningLevel": 5.0,
+      "dangerLevel": 7.5
+    }
+  },
+  "issueTimestampSeconds": "1643070254",
+  "expirationTimestampSeconds": "1643243054",
+  "hasFlooding": false
+}

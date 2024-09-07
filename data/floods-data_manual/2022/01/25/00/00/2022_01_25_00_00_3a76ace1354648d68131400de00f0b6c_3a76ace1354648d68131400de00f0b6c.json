@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BHUPALPALLY",
+    "gaugeStationName": "Kaleswaram",
+    "stationId": "002-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 103.5,
+      "dangerLevel": 104.75,
+      "extremeDangerLevel": 107.05
+    }
+  },
+  "issueTimestampSeconds": "1643070321",
+  "expirationTimestampSeconds": "1643243121",
+  "hasFlooding": false
+}

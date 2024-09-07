@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Hatboalia",
+    "stationId": "SW206",
+    "river": "Mathabhanga",
+    "waterLevelThresholds": {
+      "warningLevel": 14.0,
+      "dangerLevel": 14.5,
+      "extremeDangerLevel": 15.5
+    }
+  },
+  "issueTimestampSeconds": "1643070437",
+  "expirationTimestampSeconds": "1643243237",
+  "hasFlooding": false
+}

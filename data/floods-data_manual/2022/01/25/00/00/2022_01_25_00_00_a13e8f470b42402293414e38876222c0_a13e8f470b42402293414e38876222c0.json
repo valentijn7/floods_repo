@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "FARRUKHABAD",
+    "gaugeStationName": "Fatehgarh",
+    "stationId": "003-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 136.6,
+      "dangerLevel": 137.6,
+      "extremeDangerLevel": 138.14
+    }
+  },
+  "issueTimestampSeconds": "1643070327",
+  "expirationTimestampSeconds": "1643243127",
+  "hasFlooding": false
+}

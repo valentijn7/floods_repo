@@ -1,0 +1,18 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PALAKKAD",
+    "gaugeStationName": "Mankara",
+    "stationId": "010-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Bharathapuzha",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 51.53,
+      "dangerLevel": 52.53
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

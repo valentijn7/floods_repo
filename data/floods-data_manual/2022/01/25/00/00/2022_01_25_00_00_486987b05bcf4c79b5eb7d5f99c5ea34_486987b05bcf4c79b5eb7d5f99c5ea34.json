@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Baksa",
+    "gaugeStationName": "Puthimari N.H X-ING",
+    "stationId": "006-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Puthimari",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 50.81,
+      "dangerLevel": 51.81,
+      "extremeDangerLevel": 55.08
+    }
+  },
+  "issueTimestampSeconds": "1643070272",
+  "expirationTimestampSeconds": "1643243072",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DHUBRI",
+    "gaugeStationName": "Dhubri",
+    "stationId": "005-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Brahmaputra",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 27.62,
+      "dangerLevel": 28.62,
+      "extremeDangerLevel": 30.37
+    }
+  },
+  "issueTimestampSeconds": "1643070280",
+  "expirationTimestampSeconds": "1643243080",
+  "hasFlooding": false
+}

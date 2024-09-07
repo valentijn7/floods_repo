@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DEORIA",
+    "gaugeStationName": "Salempur",
+    "stationId": "017-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Little Gandak",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 66.12,
+      "dangerLevel": 67.12,
+      "extremeDangerLevel": 67.55
+    }
+  },
+  "issueTimestampSeconds": "1643070253",
+  "expirationTimestampSeconds": "1643243053",
+  "hasFlooding": false
+}

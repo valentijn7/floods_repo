@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Dakshin Kannada",
+    "gaugeStationName": "Addoor",
+    "stationId": "025CDBNG",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Gurupur",
+    "state": "Karnataka",
+    "waterLevelThresholds": {
+      "warningLevel": 3.5,
+      "dangerLevel": 6.5,
+      "extremeDangerLevel": 6.89
+    }
+  },
+  "issueTimestampSeconds": "1643070343",
+  "expirationTimestampSeconds": "1643243143",
+  "hasFlooding": false
+}

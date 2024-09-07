@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BARPETA",
+    "gaugeStationName": "Beki Road bridge",
+    "stationId": "002-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/Beki",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 44.1,
+      "dangerLevel": 45.1,
+      "extremeDangerLevel": 46.2
+    }
+  },
+  "issueTimestampSeconds": "1643070272",
+  "expirationTimestampSeconds": "1643243072",
+  "hasFlooding": false
+}

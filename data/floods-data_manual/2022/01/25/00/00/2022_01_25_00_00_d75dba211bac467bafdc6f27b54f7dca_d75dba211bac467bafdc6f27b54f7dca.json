@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JAUNPUR",
+    "gaugeStationName": "Jaunpur",
+    "stationId": "010-mgd3vns",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Gomti",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 73.066,
+      "dangerLevel": 74.066,
+      "extremeDangerLevel": 77.738
+    }
+  },
+  "issueTimestampSeconds": "1643070358",
+  "expirationTimestampSeconds": "1643243158",
+  "hasFlooding": false
+}

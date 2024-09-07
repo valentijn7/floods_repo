@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KHERI",
+    "gaugeStationName": "Shardanagar",
+    "stationId": "007-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Sharda",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 134.49,
+      "dangerLevel": 135.49,
+      "extremeDangerLevel": 136.55
+    }
+  },
+  "issueTimestampSeconds": "1643070365",
+  "expirationTimestampSeconds": "1643243165",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BHADRADRI",
+    "gaugeStationName": "Bhadrachalam",
+    "stationId": "017-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 45.72,
+      "dangerLevel": 48.77,
+      "extremeDangerLevel": 55.66
+    }
+  },
+  "issueTimestampSeconds": "1643070278",
+  "expirationTimestampSeconds": "1643243078",
+  "hasFlooding": false
+}

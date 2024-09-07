@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Khaliajuri",
+    "stationId": "SW72",
+    "river": "Dhanu",
+    "waterLevelThresholds": {
+      "warningLevel": 7.55,
+      "dangerLevel": 8.05,
+      "extremeDangerLevel": 9.05
+    }
+  },
+  "issueTimestampSeconds": "1643070270",
+  "expirationTimestampSeconds": "1643243070",
+  "hasFlooding": false
+}

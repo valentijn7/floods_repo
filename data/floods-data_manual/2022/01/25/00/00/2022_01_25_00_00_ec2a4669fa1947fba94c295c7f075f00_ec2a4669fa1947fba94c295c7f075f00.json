@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KHERI",
+    "gaugeStationName": "Paliakalan",
+    "stationId": "006-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Sharda",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 153.1,
+      "dangerLevel": 154.1,
+      "extremeDangerLevel": 155.32
+    }
+  },
+  "issueTimestampSeconds": "1643070370",
+  "expirationTimestampSeconds": "1643243170",
+  "hasFlooding": false
+}

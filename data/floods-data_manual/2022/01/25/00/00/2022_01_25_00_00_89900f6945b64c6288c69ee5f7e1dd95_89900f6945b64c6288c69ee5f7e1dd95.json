@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIWAN",
+    "gaugeStationName": "Darauli",
+    "stationId": "012-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Ghaghra",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 59.82,
+      "dangerLevel": 60.82,
+      "extremeDangerLevel": 61.74
+    }
+  },
+  "issueTimestampSeconds": "1643070320",
+  "expirationTimestampSeconds": "1643243120",
+  "hasFlooding": false
+}

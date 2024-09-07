@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KOCHBIHAR",
+    "gaugeStationName": "Ghugumari",
+    "stationId": "030-LBDJPG",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/ Torsa",
+    "state": "West Bengal",
+    "waterLevelThresholds": {
+      "warningLevel": 39.8,
+      "dangerLevel": 40.41,
+      "extremeDangerLevel": 41.46
+    }
+  },
+  "issueTimestampSeconds": "1643070447",
+  "expirationTimestampSeconds": "1643243247",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MALAPPURAM",
+    "gaugeStationName": "Karathodu",
+    "stationId": "006-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "kadalundi",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 12.0,
+      "dangerLevel": 13.0,
+      "extremeDangerLevel": 14.7
+    }
+  },
+  "issueTimestampSeconds": "1643070268",
+  "expirationTimestampSeconds": "1643243068",
+  "hasFlooding": false
+}

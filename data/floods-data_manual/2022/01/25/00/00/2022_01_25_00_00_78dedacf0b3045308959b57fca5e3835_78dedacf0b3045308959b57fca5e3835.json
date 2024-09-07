@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "EAST GODAVARI",
+    "gaugeStationName": "Dowlaiswaram",
+    "stationId": "028-LGDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Godavari",
+    "state": "Andhra Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 14.25,
+      "dangerLevel": 16.08,
+      "extremeDangerLevel": 18.36
+    }
+  },
+  "issueTimestampSeconds": "1643070351",
+  "expirationTimestampSeconds": "1643243151",
+  "hasFlooding": false
+}

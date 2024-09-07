@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MONTENEGRO-RS",
+    "gaugeStationName": "PASSO MONTENEGRO",
+    "stationId": "87270000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO CA\u00cd",
+    "waterLevelThresholds": {
+      "warningLevel": 4.0,
+      "dangerLevel": 6.0
+    }
+  },
+  "issueTimestampSeconds": "1643070324",
+  "expirationTimestampSeconds": "1643243124",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SITAPUR",
+    "gaugeStationName": "Batpurwaghat",
+    "stationId": "006-mgd2lkn",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Gomti",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 113.3,
+      "dangerLevel": 114.3,
+      "extremeDangerLevel": 115.55
+    }
+  },
+  "issueTimestampSeconds": "1643070490",
+  "expirationTimestampSeconds": "1643243290",
+  "hasFlooding": false
+}

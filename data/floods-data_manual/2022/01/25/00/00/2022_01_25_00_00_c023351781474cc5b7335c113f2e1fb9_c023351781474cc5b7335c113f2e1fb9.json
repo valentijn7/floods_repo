@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Phulbari",
+    "stationId": "SW132.2",
+    "river": "Ichamati-Jamuna",
+    "waterLevelThresholds": {
+      "warningLevel": 29.45,
+      "dangerLevel": 29.95,
+      "extremeDangerLevel": 30.95
+    }
+  },
+  "issueTimestampSeconds": "1643070344",
+  "expirationTimestampSeconds": "1643243144",
+  "hasFlooding": false
+}

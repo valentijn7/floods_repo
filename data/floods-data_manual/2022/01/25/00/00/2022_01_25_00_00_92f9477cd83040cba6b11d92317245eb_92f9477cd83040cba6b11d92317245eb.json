@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Trichur",
+    "gaugeStationName": "KONDAZHY",
+    "stationId": "029-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 32.2,
+      "dangerLevel": 33.3
+    }
+  },
+  "issueTimestampSeconds": "1643070283",
+  "expirationTimestampSeconds": "1643243083",
+  "hasFlooding": false
+}

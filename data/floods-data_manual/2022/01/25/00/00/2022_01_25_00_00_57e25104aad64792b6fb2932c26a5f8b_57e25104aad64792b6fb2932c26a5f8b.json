@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LAKHIMPUR",
+    "gaugeStationName": "Badatighat",
+    "stationId": "022-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nSubansiri",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 81.53,
+      "dangerLevel": 82.53,
+      "extremeDangerLevel": 86.21
+    }
+  },
+  "issueTimestampSeconds": "1643070296",
+  "expirationTimestampSeconds": "1643243096",
+  "hasFlooding": false
+}

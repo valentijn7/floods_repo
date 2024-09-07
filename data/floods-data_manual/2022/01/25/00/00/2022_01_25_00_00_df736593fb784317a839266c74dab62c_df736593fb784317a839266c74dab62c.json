@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIDDHARTH NAGAR",
+    "gaugeStationName": "Uskabazar",
+    "stationId": "013-MGD1LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ghaghra/Rapti/Kunhara",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 82.52,
+      "dangerLevel": 83.52,
+      "extremeDangerLevel": 85.62
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

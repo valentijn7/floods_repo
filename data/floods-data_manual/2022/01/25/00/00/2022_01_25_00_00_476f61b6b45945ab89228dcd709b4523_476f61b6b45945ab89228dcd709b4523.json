@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MUZAFFARPUR",
+    "gaugeStationName": "Runisaidpur",
+    "stationId": "016-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Kosi/Bagmati",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 52.73,
+      "dangerLevel": 53.73,
+      "extremeDangerLevel": 58.15
+    }
+  },
+  "issueTimestampSeconds": "1643070360",
+  "expirationTimestampSeconds": "1643243160",
+  "hasFlooding": false
+}

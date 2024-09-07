@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "THRISSUR",
+    "gaugeStationName": "PALAKADAVU",
+    "stationId": "033-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 8.3,
+      "dangerLevel": 9.3,
+      "extremeDangerLevel": 10.29
+    }
+  },
+  "issueTimestampSeconds": "1643070302",
+  "expirationTimestampSeconds": "1643243102",
+  "hasFlooding": false
+}

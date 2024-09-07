@@ -1,0 +1,17 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "ESPERANTINA-PI",
+    "gaugeStationName": "ESPERANTINA",
+    "stationId": "34940000",
+    "publisherName": "00082 - CPRM - Cia de Pesquisa de Recursos Minerais",
+    "river": "RIO LONG\u00c1",
+    "waterLevelThresholds": {
+      "warningLevel": 6.4,
+      "dangerLevel": 7.4
+    }
+  },
+  "issueTimestampSeconds": "1643070348",
+  "expirationTimestampSeconds": "1643243148",
+  "hasFlooding": false
+}

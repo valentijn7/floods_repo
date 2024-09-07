@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BALLIA",
+    "gaugeStationName": "Ballia",
+    "stationId": "008-MGD3VNS",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 56.62,
+      "dangerLevel": 57.62,
+      "extremeDangerLevel": 60.39
+    }
+  },
+  "issueTimestampSeconds": "1643070378",
+  "expirationTimestampSeconds": "1643243178",
+  "hasFlooding": false
+}

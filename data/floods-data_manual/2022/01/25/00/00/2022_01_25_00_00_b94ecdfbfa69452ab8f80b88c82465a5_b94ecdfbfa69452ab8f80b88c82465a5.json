@@ -1,0 +1,21 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Kanaighat",
+    "stationId": "SW266",
+    "river": "Surma",
+    "waterLevelThresholds": {
+      "warningLevel": 12.25,
+      "dangerLevel": 12.75,
+      "extremeDangerLevel": 13.75
+    }
+  },
+  "issueTimestampSeconds": "1643070290",
+  "expirationTimestampSeconds": "1643243090",
+  "hasFlooding": false,
+  "currentState": {
+    "startTimestampSeconds": "1642906800",
+    "endTimestampSeconds": "1642906800",
+    "severity": "NO_FLOODING"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Belgaum",
+    "gaugeStationName": "Gokak Falls",
+    "stationId": "008-ukdpune",
+    "waterLevelThresholds": {
+      "warningLevel": 542.0,
+      "dangerLevel": 544.0,
+      "extremeDangerLevel": 550.324
+    }
+  },
+  "issueTimestampSeconds": "1643070323",
+  "expirationTimestampSeconds": "1643243123",
+  "hasFlooding": false
+}

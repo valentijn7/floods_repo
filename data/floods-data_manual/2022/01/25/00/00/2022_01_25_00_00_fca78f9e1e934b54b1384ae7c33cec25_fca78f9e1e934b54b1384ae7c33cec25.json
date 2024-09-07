@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Jariajanjail",
+    "stationId": "SW36",
+    "river": "Kangsha",
+    "waterLevelThresholds": {
+      "warningLevel": 10.05,
+      "dangerLevel": 10.55,
+      "extremeDangerLevel": 11.55
+    }
+  },
+  "issueTimestampSeconds": "1643070371",
+  "expirationTimestampSeconds": "1643243171",
+  "hasFlooding": false
+}

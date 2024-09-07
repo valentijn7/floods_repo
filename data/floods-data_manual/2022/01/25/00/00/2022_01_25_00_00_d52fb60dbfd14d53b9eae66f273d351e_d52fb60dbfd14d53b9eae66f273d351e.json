@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "JEHANABAD",
+    "gaugeStationName": "Kinjer (Seasonal)",
+    "stationId": "020-mgd5ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Punpun",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 64.0,
+      "dangerLevel": 65.0,
+      "extremeDangerLevel": 67.95
+    }
+  },
+  "issueTimestampSeconds": "1643070391",
+  "expirationTimestampSeconds": "1643243191",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Bijapur",
+    "gaugeStationName": "Deongaon Bridge",
+    "stationId": "005-LKDHYD",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna/Bhima",
+    "state": "Karnataka",
+    "waterLevelThresholds": {
+      "warningLevel": 402.0,
+      "dangerLevel": 404.5,
+      "extremeDangerLevel": 409.0
+    }
+  },
+  "issueTimestampSeconds": "1643070265",
+  "expirationTimestampSeconds": "1643243065",
+  "hasFlooding": false
+}

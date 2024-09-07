@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "gaugeStationName": "Ballah",
+    "stationId": "SW157",
+    "river": "Khowai",
+    "waterLevelThresholds": {
+      "warningLevel": 20.7,
+      "dangerLevel": 21.2,
+      "extremeDangerLevel": 22.2
+    }
+  },
+  "issueTimestampSeconds": "1643070335",
+  "expirationTimestampSeconds": "1643243135",
+  "hasFlooding": false
+}

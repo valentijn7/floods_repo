@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Almora",
+    "gaugeStationName": "Bhikiasen",
+    "stationId": "021-MGD2LKN",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga/Ramganga",
+    "state": "Uttarakhand",
+    "waterLevelThresholds": {
+      "warningLevel": 789.68,
+      "dangerLevel": 790.68,
+      "extremeDangerLevel": 791.2
+    }
+  },
+  "issueTimestampSeconds": "1643070413",
+  "expirationTimestampSeconds": "1643243213",
+  "hasFlooding": false
+}

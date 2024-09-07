@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "LAKHIMPUR",
+    "gaugeStationName": "Chouldhowaghat",
+    "stationId": "021-UBDDIB",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Brahmaputra/\nSubansiri",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 99.43,
+      "dangerLevel": 100.43,
+      "extremeDangerLevel": 101.31
+    }
+  },
+  "issueTimestampSeconds": "1643070485",
+  "expirationTimestampSeconds": "1643243285",
+  "hasFlooding": false
+}

@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Bagalkot",
+    "gaugeStationName": "Cholachguda",
+    "stationId": "009-ukdpune",
+    "waterLevelThresholds": {
+      "warningLevel": 530.0,
+      "dangerLevel": 531.5,
+      "extremeDangerLevel": 537.2
+    }
+  },
+  "issueTimestampSeconds": "1643070464",
+  "expirationTimestampSeconds": "1643243264",
+  "hasFlooding": false
+}

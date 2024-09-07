@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Dhule",
+    "gaugeStationName": "Gidhade",
+    "stationId": "019-TDSURAT",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Tapi",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 136.805,
+      "dangerLevel": 137.805,
+      "extremeDangerLevel": 142.95
+    }
+  },
+  "issueTimestampSeconds": "1643070320",
+  "expirationTimestampSeconds": "1643243120",
+  "hasFlooding": false
+}

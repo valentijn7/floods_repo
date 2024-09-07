@@ -1,0 +1,15 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "MALAPPURAM",
+    "gaugeStationName": "PERUVAMPADAM",
+    "stationId": "025-SWRDKOCHI",
+    "waterLevelThresholds": {
+      "warningLevel": 26.5,
+      "dangerLevel": 27.5
+    }
+  },
+  "issueTimestampSeconds": "1643070291",
+  "expirationTimestampSeconds": "1643243091",
+  "hasFlooding": false
+}

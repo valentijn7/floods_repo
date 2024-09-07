@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PALGHAT",
+    "gaugeStationName": "KOTTATHARA",
+    "stationId": "40- SRDCBE",
+    "waterLevelThresholds": {
+      "warningLevel": 289.645,
+      "dangerLevel": 290.645,
+      "extremeDangerLevel": 295.67
+    }
+  },
+  "issueTimestampSeconds": "1643070319",
+  "expirationTimestampSeconds": "1643243119",
+  "hasFlooding": false
+}

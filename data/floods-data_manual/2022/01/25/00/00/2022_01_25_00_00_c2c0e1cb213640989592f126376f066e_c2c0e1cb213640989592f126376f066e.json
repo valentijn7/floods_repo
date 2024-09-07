@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "CACHAR",
+    "gaugeStationName": "Badar Pur Ghat",
+    "stationId": "011-MBDGHY",
+    "publisherName": "B&BBO, Shillong",
+    "river": "Barak",
+    "state": "Assam",
+    "waterLevelThresholds": {
+      "warningLevel": 15.85,
+      "dangerLevel": 16.85,
+      "extremeDangerLevel": 18.48
+    }
+  },
+  "issueTimestampSeconds": "1643070389",
+  "expirationTimestampSeconds": "1643243189",
+  "hasFlooding": false
+}

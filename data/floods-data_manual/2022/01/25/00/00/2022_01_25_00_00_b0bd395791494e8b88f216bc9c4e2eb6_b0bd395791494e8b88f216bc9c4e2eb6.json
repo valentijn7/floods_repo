@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BUXAR",
+    "gaugeStationName": "Buxar",
+    "stationId": "001-MGD5PTN",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 59.32,
+      "dangerLevel": 60.32,
+      "extremeDangerLevel": 62.09
+    }
+  },
+  "issueTimestampSeconds": "1643070468",
+  "expirationTimestampSeconds": "1643243268",
+  "hasFlooding": false
+}

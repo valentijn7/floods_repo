@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Ahmedabad",
+    "gaugeStationName": "Subhash Bridge",
+    "stationId": "020-MAHGAND",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Sabarmati",
+    "state": "Gujarat",
+    "waterLevelThresholds": {
+      "warningLevel": 44.09,
+      "dangerLevel": 45.34,
+      "extremeDangerLevel": 47.45
+    }
+  },
+  "issueTimestampSeconds": "1643070430",
+  "expirationTimestampSeconds": "1643243230",
+  "hasFlooding": false
+}

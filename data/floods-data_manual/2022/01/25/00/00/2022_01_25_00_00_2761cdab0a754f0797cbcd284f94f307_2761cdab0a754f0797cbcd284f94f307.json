@@ -1,0 +1,16 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "DHALAI",
+    "gaugeStationName": "KAMALPUR GDS SITE",
+    "stationId": "002-MDSIL",
+    "waterLevelThresholds": {
+      "warningLevel": 31.5,
+      "dangerLevel": 32.5,
+      "extremeDangerLevel": 33.85
+    }
+  },
+  "issueTimestampSeconds": "1643070277",
+  "expirationTimestampSeconds": "1643243077",
+  "hasFlooding": false
+}

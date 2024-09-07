@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "VARANASI",
+    "gaugeStationName": "Varanasi",
+    "stationId": "006-MGD3VNS",
+    "publisherName": "UGBO, Lucknow",
+    "river": "Ganga",
+    "state": "Uttar Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 70.26,
+      "dangerLevel": 71.26,
+      "extremeDangerLevel": 73.9
+    }
+  },
+  "issueTimestampSeconds": "1643070353",
+  "expirationTimestampSeconds": "1643243153",
+  "hasFlooding": false
+}

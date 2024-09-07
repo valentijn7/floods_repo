@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIRMAUR",
+    "gaugeStationName": "Paonata",
+    "stationId": "008-UYDDEL",
+    "publisherName": "YBO, New Delhi",
+    "river": "Ganga/Yamuna",
+    "state": "Himachal Pradesh",
+    "waterLevelThresholds": {
+      "warningLevel": 383.5,
+      "dangerLevel": 384.5,
+      "extremeDangerLevel": 384.6
+    }
+  },
+  "issueTimestampSeconds": "1643070251",
+  "expirationTimestampSeconds": "1643243051",
+  "hasFlooding": false
+}

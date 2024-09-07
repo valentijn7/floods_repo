@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "PALAKKAD",
+    "gaugeStationName": "Pulamanthole",
+    "stationId": "007-SWRDKOCHI",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Bharathapuzha",
+    "state": "Kerala",
+    "waterLevelThresholds": {
+      "warningLevel": 15.6,
+      "dangerLevel": 16.6,
+      "extremeDangerLevel": 20.25
+    }
+  },
+  "issueTimestampSeconds": "1643070318",
+  "expirationTimestampSeconds": "1643243118",
+  "hasFlooding": false
+}

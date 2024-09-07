@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Solapur",
+    "gaugeStationName": "Narasingpur",
+    "stationId": "010-ukdpune",
+    "publisherName": "KGBO, Hyderabad",
+    "river": "Krishna/Bhima",
+    "state": "Maharashtra",
+    "waterLevelThresholds": {
+      "warningLevel": 458.403,
+      "dangerLevel": 459.033,
+      "extremeDangerLevel": 462.393
+    }
+  },
+  "issueTimestampSeconds": "1643070452",
+  "expirationTimestampSeconds": "1643243252",
+  "hasFlooding": false
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "BALASORE",
+    "gaugeStationName": "Govindapur",
+    "stationId": "005-ERDBWN",
+    "publisherName": "Mahanadi & Eastern Rivers",
+    "river": "Burhabalang",
+    "state": "Orissa",
+    "waterLevelThresholds": {
+      "warningLevel": 7.21,
+      "dangerLevel": 8.13,
+      "extremeDangerLevel": 9.5
+    }
+  },
+  "issueTimestampSeconds": "1643070275",
+  "expirationTimestampSeconds": "1643243075",
+  "hasFlooding": false
+}

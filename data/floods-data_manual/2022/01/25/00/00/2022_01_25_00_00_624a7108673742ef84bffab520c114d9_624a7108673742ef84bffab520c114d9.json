@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "Erode",
+    "gaugeStationName": "Kodumudi",
+    "stationId": "011-SRDCBE",
+    "publisherName": "C&SRO, CWC Coimbatore",
+    "river": "Cauvery",
+    "state": "Tamilnadu",
+    "waterLevelThresholds": {
+      "warningLevel": 125.5,
+      "dangerLevel": 126.5,
+      "extremeDangerLevel": 128.14
+    }
+  },
+  "issueTimestampSeconds": "1643070307",
+  "expirationTimestampSeconds": "1643243107",
+  "hasFlooding": false
+}

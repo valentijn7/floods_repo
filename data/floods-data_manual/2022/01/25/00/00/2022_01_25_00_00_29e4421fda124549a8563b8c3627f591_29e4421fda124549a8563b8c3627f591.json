@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "SIROHI",
+    "gaugeStationName": "Abu Road",
+    "stationId": "028-MAHGAND",
+    "publisherName": "Narmada & Tapi Basin Organisation, Gandhinagar",
+    "river": "Banas",
+    "state": "Rajasthan",
+    "waterLevelThresholds": {
+      "warningLevel": 258.0,
+      "dangerLevel": 259.0,
+      "extremeDangerLevel": 265.4
+    }
+  },
+  "issueTimestampSeconds": "1643070256",
+  "expirationTimestampSeconds": "1643243056",
+  "hasFlooding": false
+}

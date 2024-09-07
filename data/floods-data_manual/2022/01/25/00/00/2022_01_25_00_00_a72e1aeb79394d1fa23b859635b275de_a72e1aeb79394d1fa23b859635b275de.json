@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "KHAGARIA",
+    "gaugeStationName": "Khagaria",
+    "stationId": "007-mgd4ptn",
+    "publisherName": "LGBO Patna",
+    "river": "Ganga/Burhi Gandak",
+    "state": "Bihar",
+    "waterLevelThresholds": {
+      "warningLevel": 35.58,
+      "dangerLevel": 36.58,
+      "extremeDangerLevel": 39.22
+    }
+  },
+  "issueTimestampSeconds": "1643070410",
+  "expirationTimestampSeconds": "1643243210",
+  "hasFlooding": false
+}

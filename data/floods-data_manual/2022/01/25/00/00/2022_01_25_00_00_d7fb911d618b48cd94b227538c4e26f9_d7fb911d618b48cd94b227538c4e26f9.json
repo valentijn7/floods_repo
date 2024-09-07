@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1.0",
+  "alertMetadata": {
+    "district": "WEST DISTRICT",
+    "gaugeStationName": "Rothak",
+    "stationId": "DWRIS-05",
+    "publisherName": "TBO, Siliguri",
+    "river": "Teesta/Rangit river",
+    "state": "West Sikkim",
+    "waterLevelThresholds": {
+      "warningLevel": 350.6,
+      "dangerLevel": 351.6,
+      "extremeDangerLevel": 353.2
+    }
+  },
+  "issueTimestampSeconds": "1643070359",
+  "expirationTimestampSeconds": "1643243159",
+  "hasFlooding": false
+}
