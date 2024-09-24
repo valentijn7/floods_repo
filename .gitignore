@@ -1,0 +1,6 @@
+# ignore the keys
+data/keys/
+
+# ignore example files
+FloodStatus_API_Usage_Example.ipynb
+Hydrological_Models_API_Usage_Example.ipynb
