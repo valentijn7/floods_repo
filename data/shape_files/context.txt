@@ -1,0 +1,1 @@
+.shp files, shapefiles, are used for plots made with GeoPandas
