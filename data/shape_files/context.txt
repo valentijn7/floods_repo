@@ -1,1 +1,3 @@
 .shp files, shapefiles, are used for plots made with GeoPandas
+
+Source: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/
