@@ -2,7 +2,7 @@ from typing import List, Dict, Any
 import requests
 import pandas as pd
 
-from get_key import get_API_key
+from getters import get_API_key, get_json_file
 
 
 def generate_url_ListGauges(path_to_key : str) -> str:
@@ -62,7 +62,7 @@ def convert_ListGauges_to_df(gauges : List[Dict[str, Any]]) -> pd.DataFrame:
     return df
 
 
-def get_ListGauges(country_code : str, path_to_key : str) -> pd.DataFrame:
+def get_ListGauges(country : str, path_to_key : str) -> pd.DataFrame:
     """
     Get the list of gauges for a specific country by calling helper functions which:
     - generate the URL;
@@ -70,14 +70,14 @@ def get_ListGauges(country_code : str, path_to_key : str) -> pd.DataFrame:
     - verify the response; and
     - convert to a pd.DataFrame in the end.
 
-    :param country_code: the country code
+    :param country: the country
     :param path_to_key: path to the .txt file containing the API key
     :return: DataFrame with the gauges
     """
     return convert_ListGauges_to_df(
         verify_ListGauges(
             make_request_ListGauges(
-                country_code, path_to_key
+                get_json_file("../../data/country_codes.json")[country], path_to_key
             )
         )
     )
