@@ -18,6 +18,10 @@ def generate_model_names(df_gauges: pd.DataFrame) -> List[str]:
 def generate_url_GetGaugeModel(path_to_key: str, df_gauges: pd.DataFrame) -> str:
     """
     Generate the URL for the GetGaugeModel API call
+
+    :param path_to_key: the path to the API key
+    :param df_gauges: a DataFrame containing the gauge IDs
+    :return: the URL
     """
     base_url = 'https://floodforecasting.googleapis.com/v1/gaugeModels:batchGet'
     model_names_parameter = '&'.join(generate_model_names(df_gauges))
