@@ -1,8 +1,8 @@
+from getters import get_API_key, get_json_file
+
 from typing import List, Dict, Any
 import requests
 import pandas as pd
-
-from getters import get_API_key, get_json_file
 
 
 def generate_url_ListGauges(path_to_key : str) -> str:
@@ -16,7 +16,7 @@ def generate_url_ListGauges(path_to_key : str) -> str:
     return f'{base_url}?key={get_API_key(path_to_key)}'
 
 
-def make_request_ListGauges(country_code : str, path_to_key : str) -> List[Dict[str, Any]]:
+def make_request_ListGauges(country_code : str, path_to_key : str) -> requests.Response:
     """
     Make the API request for the list of gauges for a specific country
 
@@ -31,12 +31,11 @@ def make_request_ListGauges(country_code : str, path_to_key : str) -> List[Dict[
     return response
 
 
-def verify_ListGauges(response : Any) -> List[Dict[str, Any]]:
+def verify_ListGauges(response : Any) -> Any:
     """
-    Get the list of gauges for a specific country, and verify the response
+    Verify the ListGauges API call response
 
-    :param country_code: the country code
-    :param path_to_key: path to the .txt file containing the API key
+    :param response: the response
     :return: the list of gauges
     """
     if response.status_code != 200:
