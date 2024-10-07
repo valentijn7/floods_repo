@@ -73,7 +73,7 @@ def convert_QueryGaugeForecasts_to_df(response: Dict[str, Dict[str, List[Any]]])
                 forecast_date = forecast_data['forecastStartTime'][:10]
                 forecast_value = forecast_data['value']
                 records.append({
-                    'gauge_ID': gauge_id,
+                    'gaugeId': gauge_id,
                     'issue_time': issued_time,
                     'fc_date': forecast_date,
                     'fc_value': forecast_value,
@@ -83,7 +83,7 @@ def convert_QueryGaugeForecasts_to_df(response: Dict[str, Dict[str, List[Any]]])
     df['issue_time'] = pd.to_datetime(df['issue_time'])
     df['issue_date'] = df['issue_time'].dt.date
     df['fc_date'] = pd.to_datetime(df['fc_date'])        
-    df = df[['gauge_ID', 'issue_date', 'issue_time', 'fc_date', 'fc_value']]
+    df = df[['gaugeId', 'issue_date', 'issue_time', 'fc_date', 'fc_value']]
 
     return df
 

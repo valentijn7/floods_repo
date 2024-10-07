@@ -70,16 +70,16 @@ def make_subset_for_gauge_and_issue_time(
     :param issue_time: issue time of the forecast
     :return: subset of the DataFrame
     """
-    if not all(df['gauge_ID'].apply(lambda x: isinstance(x, str))):
-        df['gauge_ID'] = df['gauge_ID'].astype(str)
+    if not all(df['gaugeId'].apply(lambda x: isinstance(x, str))):
+        df['gaugeId'] = df['gaugeId'].astype(str)
     if not all(df['issue_date'].apply(lambda x: isinstance(x, datetime.date))):
         df['issue_date'] = pd.to_datetime(df['issue_date']).dt.date
-    assert all(df['gauge_ID'].apply(lambda x: isinstance(x, str))), \
-        "gauge_ID column contains non-string values, subseting hindered"
+    assert all(df['gaugeId'].apply(lambda x: isinstance(x, str))), \
+        "gaugeId column contains non-string values, subseting hindered"
     assert all(df['issue_date'].apply(lambda x: isinstance(x, datetime.date))), \
         "issue_date column contains non-date values, subsetting hindered"
 
-    return df[(df['gauge_ID'] == gauge) & (df['issue_date'] == issue_date.date())]  
+    return df[(df['gaugeId'] == gauge) & (df['issue_date'] == issue_date.date())]  
 
 
 def create_dates_series(start_date : datetime.datetime, delta: int) -> pd.Series:
