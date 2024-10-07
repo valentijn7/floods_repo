@@ -2,9 +2,11 @@
 
 from .getters import get_json_file
 
+from typing import List
 import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 from matplotlib.ticker import MaxNLocator
 from matplotlib.patches import Patch
 from matplotlib.colors import LinearSegmentedColormap
@@ -67,51 +69,57 @@ def make_subset_for_gauge_and_issue_time(
 
     :param df: DataFrame with forecasted values
     :param gauge: ID of the gauge
-    :param issue_time: issue time of the forecast
+    :param issue_date: issue time of the forecast
     :return: subset of the DataFrame
     """
     if not all(df['gaugeId'].apply(lambda x: isinstance(x, str))):
         df['gaugeId'] = df['gaugeId'].astype(str)
-    if not all(df['issue_date'].apply(lambda x: isinstance(x, datetime.date))):
-        df['issue_date'] = pd.to_datetime(df['issue_date']).dt.date
+    if not all(df['issue_date'].apply(lambda x: isinstance(x, datetime.datetime))):
+        df['issue_date'] = pd.to_datetime(df['issue_date'])
     assert all(df['gaugeId'].apply(lambda x: isinstance(x, str))), \
         "gaugeId column contains non-string values, subseting hindered"
-    assert all(df['issue_date'].apply(lambda x: isinstance(x, datetime.date))), \
+    assert all(df['issue_date'].apply(lambda x: isinstance(x, datetime.datetime))), \
         "issue_date column contains non-date values, subsetting hindered"
+    
+    # For plotting purposes, the time can (and must) be normalized
+    df['issue_date'] = df['issue_date'].dt.normalize()
 
-    return df[(df['gaugeId'] == gauge) & (df['issue_date'] == issue_date.date())]  
+    return df[(df['gaugeId'] == gauge) & (df['issue_date'] == issue_date)]  
 
 
-def create_dates_series(start_date : datetime.datetime, delta: int) -> pd.Series:
+def create_dates_list(start_date : datetime.datetime, delta: int) -> List[datetime.datetime]:
     """
     Create a series of dates starting from a given date and going on for a given number of days
 
     :param start_date: starting date
     :param delta: number of days
-    :return: Series of dates
+    :return: list with dates
     """
-    return pd.Series(
+    return [
         # minus one here because, strangely enough, the first forecasted
         # date is one day in the past compared to the issue date...
-        [start_date.date() + datetime.timedelta(days = idx - 1) for idx in range(0, delta + 1)]
-    )
+        start_date + datetime.timedelta(days = idx - 1) for idx in range(0, delta + 1)
+    ]
 
 
-def set_custom_date_ticks(ax: plt.Axes, dates: pd.Series) -> None:
+def set_custom_date_ticks(ax: plt.Axes, dates: List[datetime.datetime]) -> None:
     """
     Set custom date ticks on the x-axis of a plot, where only
     the first and final date are displayed, while keeping the ticks
 
-    :param ax: Axes object
-    :param dates: Series of dates (datetime.date objects)
+    :param ax: axes object
+    :param dates: list of dates (datetime.datetime objects)
     """
-    ax.set_xticks(dates)
+    if len(dates) < 2:
+        raise ValueError('At least two dates are needed to set custom date ticks')
+
+    ax.set_xticks(mdates.date2num(dates))
     x_labels = [
-        dates.iloc[0].strftime('%Y-%m-%d')
+        dates[0].strftime('%Y-%m-%d')
     ] + [''] * (len(dates) - 2) + [
-        dates.iloc[-1].strftime('%Y-%m-%d')
+        dates[-1].strftime('%Y-%m-%d')
     ]
-    ax.set_xticklabels(x_labels)  
+    ax.set_xticklabels(x_labels)
 
 
 def plot_gauge_forecast_for_issue_time(
@@ -126,10 +134,13 @@ def plot_gauge_forecast_for_issue_time(
     """
     set_plot_style()
 
+    # for plotting purposes, the time can be normalized
+    issue_date = issue_date.replace(hour = 0, minute = 0, second = 0, microsecond = 0)
     df_subset = make_subset_for_gauge_and_issue_time(df, gauge, issue_date)
     if df_subset.empty:
         print(f"No forecasted values for gauge {gauge} at {issue_date.date()}")
         return
+    df_subset['fc_date'] = mdates.date2num(df_subset['fc_date'])
 
     ax = sns.lineplot(
         x = 'fc_date',
@@ -138,10 +149,11 @@ def plot_gauge_forecast_for_issue_time(
         color = '#DB0A13'
     )
 
+    # ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     # only display first and final forecast date on date-axis while keeping ticks
     set_custom_date_ticks(
         ax,
-        create_dates_series(issue_date, 7)
+        create_dates_list(issue_date, 7)
     )
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
@@ -164,14 +176,18 @@ def plot_week_of_gauge_forecast_for_issue_time(
     set_plot_style()
     plt.figure(figsize = (10, 6))
     custom_palette = get_custom_palette(7)
+
+    # for plotting purposes, the time can be normalized
+    issue_date = issue_date.replace(hour = 0, minute = 0, second = 0, microsecond = 0)
     
     for idx in range(7): # loop for seven days, aka a week
         df_subset = make_subset_for_gauge_and_issue_time(
             df, gauge, issue_date + datetime.timedelta(days = idx)
-        )
+        ).copy()
         if df_subset.empty:
             print(f"No forecasted values for gauge {gauge} at {issue_date.date()}")
             return
+        df_subset['fc_date'] = mdates.date2num(df_subset['fc_date'])
 
         sns.lineplot(
             x = 'fc_date',
@@ -181,8 +197,8 @@ def plot_week_of_gauge_forecast_for_issue_time(
         )
 
     set_custom_date_ticks(
-        plt.gca(),
-        create_dates_series(issue_date, 7 + 7) # a week plus lead time
+        plt.gca(), # returns the current axes
+        create_dates_list(issue_date, 7 + 7) # a week plus lead time
     )
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
@@ -212,14 +228,19 @@ def plot_x_days_of_gauge_forecast_for_issue_time(
     set_TeX_style() if TeX else None
     plt.figure(figsize = (10, 6))
     custom_palette = get_custom_palette(days)
+
+    # for plotting purposes, the time can be normalized
+    issue_date = issue_date.replace(hour = 0, minute = 0, second = 0, microsecond = 0)
     
     for idx in range(days):
         df_subset = make_subset_for_gauge_and_issue_time(
             df, gauge, issue_date + datetime.timedelta(days = idx)
-        )
+        ).copy()
         if df_subset.empty:
             print(f"No forecasted values for gauge {gauge} at {issue_date.date()}")
             return
+        # for x-axis (type) alignment
+        df_subset['fc_date'] = mdates.date2num(df_subset['fc_date'])
 
         sns.lineplot(
             x = 'fc_date',
@@ -229,8 +250,8 @@ def plot_x_days_of_gauge_forecast_for_issue_time(
         )
 
     set_custom_date_ticks(
-        plt.gca(),
-        create_dates_series(issue_date, days + 7) # a week plus lead time
+        plt.gca(), # returns the current axes
+        create_dates_list(issue_date, days + 7) # a week plus lead time
     )
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
@@ -239,7 +260,7 @@ def plot_x_days_of_gauge_forecast_for_issue_time(
     plt.draw()
 
     if export:
-        plt.savefig(f"../../plots/graph_{days}_fcs_of_gauge_{gauge}_at_issue_date_{str(issue_date.date())}.pdf",
+        plt.savefig(f"../plots/graph_{days}_fcs_of_gauge_{gauge}_at_issue_date_{str(issue_date.date())}.pdf",
                     format = 'pdf',
                     bbox_inches = 'tight',
                     pad_inches = 0.015)
@@ -295,7 +316,7 @@ def get_shape_file(file : str) -> gpd.GeoDataFrame:
     :return: the GeoDataFrame
     """
     try:
-        return gpd.read_file(f"../../data/shape_files/{file}")
+        return gpd.read_file(f"../data/shape_files/{file}")
     except Exception as exc:
         raise Exception(f'Error reading shapefile: {exc}')
 
@@ -307,7 +328,7 @@ def convert_country_code_to_iso_a3(country_code : str) -> str:
     :param country_code: the country code
     :return: the ISO A3 code
     """
-    return get_json_file("../../data/country_codes_to_ISO_A3.json")[country_code]
+    return get_json_file("../data/country_codes_to_ISO_A3.json")[country_code]
 
 
 def get_country_polygon(country_code : str) -> gpd.GeoDataFrame:
@@ -335,7 +356,7 @@ def map_gauge_coordinates_of_country(df : pd.DataFrame, country : str) -> None:
     :return: the GeoDataFrame
     """
     gdf = convert_df_to_gdf(df)
-    shape = get_country_polygon(get_json_file("../../data/country_codes.json")[country])
+    shape = get_country_polygon(get_json_file("../data/country_codes.json")[country])
 
     fig, ax = plt.subplots()
     shape.plot(ax = ax, color = 'lightgrey')
