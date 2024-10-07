@@ -1,4 +1,6 @@
-from getters import get_json_file
+# src/extract_data/plots.py
+
+from .getters import get_json_file
 
 import pandas as pd
 import geopandas as gpd

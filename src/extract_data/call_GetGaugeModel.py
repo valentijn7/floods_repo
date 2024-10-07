@@ -1,4 +1,6 @@
-from getters import get_API_key
+# src/extract_data/call_GetGaugeModel.py
+
+from .getters import get_API_key
 
 from typing import List, Dict, Any
 import numpy as np

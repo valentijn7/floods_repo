@@ -1,4 +1,6 @@
-from getters import get_API_key, get_json_file
+# src/extract_data/call_ListGauges.py
+
+from .getters import get_API_key, get_json_file
 
 from typing import List, Dict, Any
 import requests
