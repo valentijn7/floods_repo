@@ -46,22 +46,23 @@ def extract_country_data_for_time_delta(
     :param export: export data to csv file yes/no
     """
     df_gauges = get_ListGauges(country, path_API_key)
-    df_gauge_models = get_GetGaugeModel(path_API_key, df_gauges)
-    df_gauge_forecasts = get_QueryGaugeForecasts(
-        path_API_key, 
-        df_gauge_models['gaugeId'].tolist(), 
-        delta
-    )
-
     if export:
         export_data_to_csv(
             f"../../data/processed/metadata/metadata_gauges_{country}.csv",
             df_gauges
         )
+    df_gauge_models = get_GetGaugeModel(path_API_key, df_gauges)
+    if export:
         export_data_to_csv(
             f"../../data/processed/gauge_metadata_per_country/gauge_meta_{country}.csv",
             df_gauge_models
         )
+    df_gauge_forecasts = get_QueryGaugeForecasts(
+        path_API_key, 
+        df_gauge_models['gaugeId'].tolist(), 
+        delta
+    )
+    if export:
         export_data_to_csv(
             f"../../data/floods-data/{country.lower()}/{str(delta[0])[:10]}_to_{str(delta[1])[:10]}.csv",
             df_gauge_forecasts,
