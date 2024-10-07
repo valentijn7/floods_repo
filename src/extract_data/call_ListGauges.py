@@ -42,9 +42,16 @@ def verify_ListGauges(response : Any) -> Any:
         raise Exception(f'Error: {response.status_code} -- {response.text}')
 
     try:
-        return response.json()['gauges']
+        data = response.json()
     except ValueError as exc:
         raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    
+    if 'gauges' in data:
+        return data['gauges']
+    else:
+        print('Error: no gauges found in the response')
+        print('Full response:', data)
+        raise KeyError('KeyError: no gauges found in the API response')
     
 
 def convert_ListGauges_to_df(gauges : List[Dict[str, Any]]) -> pd.DataFrame:

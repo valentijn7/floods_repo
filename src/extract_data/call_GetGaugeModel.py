@@ -1,6 +1,7 @@
 from getters import get_API_key
 
 from typing import List, Dict, Any
+import numpy as np
 import pandas as pd
 import requests
 
@@ -55,9 +56,16 @@ def verify_GetGaugeModel(response: Any) -> Any:
         raise Exception(f'Error: {response.status_code} -- {response.text}')
 
     try:
-        return response.json()['gaugeModels']
+        data = response.json()
     except ValueError as exc:
         raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    
+    if 'gaugeModels' in data:
+        return data['gaugeModels']
+    else:
+        print('Error: no gaugeModels found in the response')
+        print('Full response:', data)
+        raise KeyError('KeyError: no gaugeModels found in the API response')
 
 
 def convert_GetGaugeModel_to_df(response: List[Dict[str, Any]]) -> pd.DataFrame:
@@ -69,10 +77,20 @@ def convert_GetGaugeModel_to_df(response: List[Dict[str, Any]]) -> pd.DataFrame:
     """
     df = pd.DataFrame(response)
 
-    # Retrieve all threshold values from Dict in column entries using lambda ()
-    df['dangerLevel'] = df['thresholds'].apply(lambda x: x['dangerLevel'])
-    df['extremeDangerLevel'] = df['thresholds'].apply(lambda x: x['extremeDangerLevel'])
-    df['warningLevel'] = df['thresholds'].apply(lambda x: x['warningLevel'])
+    # As for some stations, a threshold value is not available, we need to check if
+    # the key exists in the df before trying to access it (and getting a KeyError):
+    # This works because .get() automatically returns None if the key does not exist
+    df['warningLevel'] = df['thresholds'].apply(lambda x: x.get('warningLevel') \
+                                                if isinstance(x, dict) else np.nan)
+    df['dangerLevel'] = df['thresholds'].apply(lambda x: x.get('dangerLevel') \
+                                               if isinstance(x, dict) else np.nan)
+    df['extremeDangerLevel'] = df['thresholds'].apply(lambda x: x.get('extremeDangerLevel') \
+                                                      if isinstance(x, dict) else np.nan)
+
+    # # Retrieve all threshold values from Dict in column entries using lambda ()
+    # df['dangerLevel'] = df['thresholds'].apply(lambda x: x['dangerLevel'])
+    # df['extremeDangerLevel'] = df['thresholds'].apply(lambda x: x['extremeDangerLevel'])
+    # df['warningLevel'] = df['thresholds'].apply(lambda x: x['warningLevel'])
     df.drop(columns = ['thresholds'], inplace = True)
 
     return df

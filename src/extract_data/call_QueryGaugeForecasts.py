@@ -38,9 +38,16 @@ def verify_response_QueryGaugeForecasts(response: Any) -> Any:
         raise Exception(f'Error: {response.status_code} -- {response.text}')
 
     try:
-        return response.json()['forecasts']
+        data = response.json()
     except ValueError as exc:
         raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    
+    if 'forecasts' in data:
+        return data['forecasts']
+    else:
+        print('Error: no forecasts found in the response')
+        print('Full response:', data)
+        raise KeyError('KeyError: no forecasts found in the API response')
     
 
 def convert_QueryGaugeForecasts_to_df(response: Dict[str, Dict[str, List[Any]]]) -> List[pd.DataFrame]:
