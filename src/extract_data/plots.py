@@ -102,7 +102,8 @@ def create_dates_list(start_date : datetime.datetime, delta: int) -> List[dateti
     ]
 
 
-def set_custom_date_ticks(ax: plt.Axes, dates: List[datetime.datetime]) -> None:
+def set_custom_date_ticks(
+        ax: plt.Axes, issue_date: datetime.datetime, days: int) -> None:
     """
     Set custom date ticks on the x-axis of a plot, where only
     the first and final date are displayed, while keeping the ticks
@@ -110,6 +111,7 @@ def set_custom_date_ticks(ax: plt.Axes, dates: List[datetime.datetime]) -> None:
     :param ax: axes object
     :param dates: list of dates (datetime.datetime objects)
     """
+    dates = create_dates_list(issue_date, days + 7)
     if len(dates) < 2:
         raise ValueError('At least two dates are needed to set custom date ticks')
 
@@ -151,10 +153,7 @@ def plot_gauge_forecast_for_issue_time(
 
     # ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     # only display first and final forecast date on date-axis while keeping ticks
-    set_custom_date_ticks(
-        ax,
-        create_dates_list(issue_date, 7)
-    )
+    set_custom_date_ticks(ax, issue_date, 7)
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
     plt.xlabel('date')
@@ -195,11 +194,9 @@ def plot_week_of_gauge_forecast_for_issue_time(
             data = df_subset,
             color = custom_palette[idx]
         )
-
-    set_custom_date_ticks(
-        plt.gca(), # returns the current axes
-        create_dates_list(issue_date, 7 + 7) # a week plus lead time
-    )
+    # plt.gca() returns the current axes, 7 + 7 = 14 days = a week plus lead time
+    set_custom_date_ticks(plt.gca(), issue_date, 7 + 7)
+    
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
     plt.xlabel('date')
@@ -249,10 +246,8 @@ def plot_x_days_of_gauge_forecast_for_issue_time(
             color = custom_palette[idx]
         )
 
-    set_custom_date_ticks(
-        plt.gca(), # returns the current axes
-        create_dates_list(issue_date, days + 7) # a week plus lead time
-    )
+    # plt.gca() returns the current axes, 7 + days = lead time + delta days
+    set_custom_date_ticks(plt.gca(), issue_date, days + 7)
 
     plt.title(f'Forecasts for gauge {gauge} in {country}, w/ 1st issue date: {issue_date.date()}')
     plt.xlabel('date')

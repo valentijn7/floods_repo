@@ -85,7 +85,7 @@ def get_ListGauges(country : str, path_to_key : str) -> pd.DataFrame:
     return convert_ListGauges_to_df(
         verify_ListGauges(
             make_request_ListGauges(
-                get_json_file("../../data/country_codes.json")[country], path_to_key
+                get_json_file("../data/country_codes.json")[country], path_to_key
             )
         )
     )
