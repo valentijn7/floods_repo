@@ -1,6 +1,6 @@
 # src/extract_data/plots.py
 
-from .getters import get_json_file
+import extract_data
 
 from typing import List
 import pandas as pd
