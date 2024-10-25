@@ -1,6 +1,6 @@
 # src/extract_data/plots.py
 
-import extract_OLD
+from extract import get_json_file
 
 from typing import List
 import pandas as pd
@@ -323,7 +323,7 @@ def convert_country_code_to_iso_a3(country_code : str) -> str:
     :param country_code: the country code
     :return: the ISO A3 code
     """
-    return extract_OLD.get_json_file(
+    return get_json_file(
         "../data/country_code_conversions/country_codes_to_ISO_A3.json"
         )[country_code]
 
@@ -364,7 +364,7 @@ def map_gauge_coordinates_of_country(df : pd.DataFrame, country : str) -> None:
     :return None
     """
     gdf = convert_df_to_gdf(df)
-    shape = get_country_polygon(extract_OLD.get_json_file(
+    shape = get_country_polygon(get_json_file(
         "../data/country_code_conversions/country_codes.json"
         )[country])
 
