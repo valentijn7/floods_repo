@@ -1,11 +1,13 @@
-# src/extract_data/call_QueryGaugeForecasts.py
+# src/extract/call_QueryGaugeForecasts.py
 
 from .getters import get_API_key
+from .exceptions import ForecastsNotAvailableError
 
 from typing import List, Dict, Any
-import pandas as pd
+import json
 import requests
 import datetime
+import pandas as pd
 
 
 def make_request_QueryGaugeForecasts(
@@ -37,19 +39,20 @@ def verify_response_QueryGaugeForecasts(response: Any) -> Any:
     :return: True if the response is valid, False otherwise
     """
     if response.status_code != 200:
-        raise Exception(f'Error: {response.status_code} -- {response.text}')
+        raise requests.HTTPError(f'Error: {response.status_code} -- {response.text}')
 
     try:
         data = response.json()
-    except ValueError as exc:
-        raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    except json.JSONDecodeError as exc:
+        raise json.JSONDecodeError(f'Error parsing JSON: {exc.msg}', exc.doc, exc.pos)
     
     if 'forecasts' in data:
+        print('QueryGaugeForecasts API call successful\n')
         return data['forecasts']
     else:
         print('Error: no forecasts found in the response')
-        print('Full response:', data)
-        raise KeyError('KeyError: no forecasts found in the API response')
+        print('Full response:', data, '\n')
+        raise ForecastsNotAvailableError()
     
 
 def convert_QueryGaugeForecasts_to_df(response: Dict[str, Dict[str, List[Any]]]) -> List[pd.DataFrame]:

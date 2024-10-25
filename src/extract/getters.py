@@ -1,4 +1,4 @@
-# src/extract_data/getters.py
+# src/extract/getters.py
 
 from typing import Dict
 import json

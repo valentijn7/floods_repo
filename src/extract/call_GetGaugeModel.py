@@ -1,11 +1,13 @@
-# src/extract_data/call_GetGaugeModel.py
+# src/extract/call_GetGaugeModel.py
 
 from .getters import get_API_key
+from .exceptions import GaugeModelsNotAvailableError
 
 from typing import List, Dict, Any
+import json
+import requests
 import numpy as np
 import pandas as pd
-import requests
 
 
 def generate_model_names(df_gauges: pd.DataFrame) -> List[str]:
@@ -55,19 +57,20 @@ def verify_GetGaugeModel(response: Any) -> Any:
     :return: a dictionary containing the response
     """
     if response.status_code != 200:
-        raise Exception(f'Error: {response.status_code} -- {response.text}')
+        raise requests.HTTPError(f'Error: {response.status_code} -- {response.text}')
 
     try:
         data = response.json()
-    except ValueError as exc:
-        raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    except json.JSONDecodeError as exc:
+        raise json.JSONDecodeError(f'Error parsing JSON: {exc.msg}', exc.doc, exc.pos)
     
     if 'gaugeModels' in data:
+        print('GetGaugeModel API call successful')
         return data['gaugeModels']
     else:
         print('Error: no gaugeModels found in the response')
         print('Full response:', data)
-        raise KeyError('KeyError: no gaugeModels found in the API response')
+        raise GaugeModelsNotAvailableError()
 
 
 def convert_GetGaugeModel_to_df(response: List[Dict[str, Any]]) -> pd.DataFrame:

@@ -1,8 +1,10 @@
-# src/extract_data/call_ListGauges.py
+# src/extract/call_ListGauges.py
 
 from .getters import get_API_key, get_json_file
+from .exceptions import GaugesNotAvailableError
 
 from typing import List, Dict, Any
+import json
 import requests
 import pandas as pd
 
@@ -41,19 +43,20 @@ def verify_ListGauges(response : Any) -> Any:
     :return: the list of gauges
     """
     if response.status_code != 200:
-        raise Exception(f'Error: {response.status_code} -- {response.text}')
+        raise requests.HTTPError(f'Error: {response.status_code} -- {response.text}')
 
     try:
         data = response.json()
-    except ValueError as exc:
-        raise Exception(f'Error parsing .json: {exc} -- {response.text}')
+    except json.JSONDecodeError as exc:
+        raise json.JSONDecodeError(f'Error parsing JSON: {exc.msg}', exc.doc, exc.pos)
     
     if 'gauges' in data:
+        print('ListGauges API call successful')
         return data['gauges']
     else:
         print('Error: no gauges found in the response')
         print('Full response:', data)
-        raise KeyError('KeyError: no gauges found in the API response')
+        raise GaugesNotAvailableError()
     
 
 def convert_ListGauges_to_df(gauges : List[Dict[str, Any]]) -> pd.DataFrame:
@@ -85,7 +88,7 @@ def get_ListGauges(country : str, path_to_key : str) -> pd.DataFrame:
     return convert_ListGauges_to_df(
         verify_ListGauges(
             make_request_ListGauges(
-                get_json_file("../data/country_codes.json")[country], path_to_key
+                get_json_file("../data/country_code_conversions/country_codes.json")[country], path_to_key
             )
         )
     )

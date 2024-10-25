@@ -1,6 +1,6 @@
 # src/extract_data/plots.py
 
-import extract_data
+import extract_OLD
 
 from typing import List
 import pandas as pd
@@ -323,7 +323,9 @@ def convert_country_code_to_iso_a3(country_code : str) -> str:
     :param country_code: the country code
     :return: the ISO A3 code
     """
-    return extract_data.get_json_file("../data/country_codes_to_ISO_A3.json")[country_code]
+    return extract_OLD.get_json_file(
+        "../data/country_code_conversions/country_codes_to_ISO_A3.json"
+        )[country_code]
 
 
 def get_country_gauge_coords(df: pd.DataFrame) -> pd.DataFrame:
@@ -357,11 +359,14 @@ def map_gauge_coordinates_of_country(df : pd.DataFrame, country : str) -> None:
     """
     Map gauge coordinates
 
-    :param df: the DataFrame with the gauges
-    :return: the GeoDataFrame
+    :param df: the DataFrame with the gauges (so ListGauges API call)
+    :param country: the country of interest
+    :return None
     """
     gdf = convert_df_to_gdf(df)
-    shape = get_country_polygon(extract_data.get_json_file("../data/country_codes.json")[country])
+    shape = get_country_polygon(extract_OLD.get_json_file(
+        "../data/country_code_conversions/country_codes.json"
+        )[country])
 
     fig, ax = plt.subplots()
     shape.plot(ax = ax, color = 'lightgrey')
@@ -370,4 +375,5 @@ def map_gauge_coordinates_of_country(df : pd.DataFrame, country : str) -> None:
     ax.set_ylabel('Latitude')
     ax.set_title(f'Gauge locations for {country}')
     ax.set_aspect('equal') # Ensure unwarped aspect ratio
+
     plt.show()
