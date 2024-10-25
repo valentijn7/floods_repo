@@ -65,6 +65,7 @@ def import_country_forecast_data(country: str, a: str, b: str) -> pd.DataFrame:
         return None
     return pd.read_csv(
         f"../data/floods_data/{country.lower()}/{a}_to_{b}.csv",
+        index_col = 0,
         sep = ';',
         decimal = '.',
         encoding = 'utf-8'
