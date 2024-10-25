@@ -1,7 +1,10 @@
 # src/analyze/getters.py
 
+from .transform import convert_country_code_to_iso_a3
+
 import datetime
 import pandas as pd
+import geopandas as gpd
 
 
 def import_ListGauges_data(country: str) -> pd.DataFrame:
@@ -89,3 +92,33 @@ def get_country_data(country: str, a: str, b: str) -> pd.DataFrame:
     df_forecasts = import_country_forecast_data(country, a, b)
 
     return df_gauges, df_gauge_meta, df_forecasts
+
+
+def get_shape_file(file : str) -> gpd.GeoDataFrame:
+    """
+    Get the shape file for a country
+
+    :param country: the country
+    :return: the GeoDataFrame
+    """
+    try:
+        return gpd.read_file(f"../data/shape_files/{file}")
+    except Exception as exc:
+        raise Exception(f'Error reading shapefile: {exc}')
+    
+
+def get_country_polygon(country_code : str) -> gpd.GeoDataFrame:
+    """
+    Get the polygon of a country as a GeoDataFrame
+
+    :param country_code: the country code
+    :return: the polygon
+    """
+    gdf = get_shape_file('ne_110m_admin_0_countries')
+    iso_a3 = convert_country_code_to_iso_a3(country_code)
+
+    country_row = gdf[gdf['SOV_A3'] == iso_a3]
+    if country_row.empty:
+        raise ValueError(f'Country with ISO A3 code {country_code} not found')
+    
+    return gpd.GeoDataFrame(geometry = [country_row['geometry'].values[0]])
