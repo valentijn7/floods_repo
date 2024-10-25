@@ -4,6 +4,10 @@ import sys
 import extract
 
 
+# This main function is used to extract data from the API.
+# Later, a governing function for analysis will be added.
+
+
 def main():
     print("BEWARE: as of October 2024, the API contains no data issued before July 2024\n")
     
