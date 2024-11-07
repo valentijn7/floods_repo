@@ -5,6 +5,9 @@ from extract import get_json_file
 from .getters import get_country_polygon
 from .transform import convert_df_to_gdf
 from .transform import make_subset_for_gauge_and_issue_time
+from .statistics import z_normalise
+from .statistics import get_stats_for_forecast_range
+
 
 from typing import List
 import datetime
@@ -301,3 +304,103 @@ def map_gauge_coordinates_of_country(df : pd.DataFrame, country : str) -> None:
     ax.set_aspect('equal') # Ensure unwarped aspect ratio
 
     plt.show()
+
+
+def plot_forecast_min_mean_max(
+        df: pd.DataFrame,
+        issue_date: datetime.datetime,
+        gauge: str,
+        delta: int) -> None:
+    """
+    Plots the minimum, mean, and maximum forecast values
+    for a given gauge and issue time, for a given number of days
+    after the issue time
+
+    :param df: dataframe containing forecasts, with for each issue time
+               a seven-day forecast per gauge
+    :param issue_date: issue date/time of the forecast to be taken
+    :param gauge: gauge ID for which to plot the forecast
+    :param delta: time delta in days from the issue time
+    :return None
+    """
+    set_plot_style()
+    plt.figure(figsize = (10, 6))
+    custom_palette = create_custom_palette(3)
+    
+    min_values = get_stats_for_forecast_range(df, issue_date, gauge, delta, 'min')
+    mean_values = get_stats_for_forecast_range(df, issue_date, gauge, delta, 'mean')
+    max_values = get_stats_for_forecast_range(df, issue_date, gauge, delta, 'max')
+
+    sns.lineplot(
+        x = min_values.index,
+        y = min_values,
+        label = 'min',
+        color = custom_palette[0]
+    )
+    sns.lineplot(
+        x = mean_values.index,
+        y = mean_values,
+        label = 'mean',
+        color = custom_palette[1]
+    )
+    sns.lineplot(
+        x = max_values.index,
+        y = max_values,
+        label = 'max',
+        color = custom_palette[2]
+    )
+
+    plt.xticks(rotation = 45)
+    plt.title(f"Forecast for gauge {gauge} issued on {str(issue_date)[:10]}")
+    plt.xlabel("Date")
+    plt.ylabel("Cubic meters per second")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_Niger_river_downstream_flow_stat(
+        df: pd.DataFrame,
+        issue_date: datetime.datetime,
+        gauges: list,
+        delta: int,
+        stat) -> None:
+    """
+    Plots a statistic of choice for the gauges along the Niger river
+    in Mali in downstream order. The statistic is calculated for a
+    given number of days after the issue time. Each gauge has its
+    volume normalised to account for the different local volumes
+
+    :param df: dataframe containing forecasts, with for each issue time
+                a seven-day forecast per gauge
+    :param issue_date: issue date/time of the forecast to be taken
+    :param gauges: list of gauge IDs for which to plot the forecast
+    :param delta: time delta in days from the issue time
+    :param stat: which statistic to calculate
+    """
+    set_plot_style()
+    plt.figure(figsize = (10, 6))
+    custom_palette = create_custom_palette(len(gauges))
+
+    for idx, gauge in enumerate(gauges):
+        values = z_normalise(
+            get_stats_for_forecast_range(
+                df, issue_date, gauge, delta, stat
+            )
+        )
+        sns.lineplot(
+            x = values.index,
+            y = values,
+            label = gauge,
+            color = custom_palette[idx]
+        )
+    
+    plt.xticks(rotation = 45)
+    plt.title(f"z-normalised {stat} forecast for gauges along the Niger river in Mali")
+    plt.xlabel("date")
+    plt.ylabel("z-normalised volume")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+    
