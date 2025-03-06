@@ -18,7 +18,7 @@ def main():
             )
         print(
             f"Extraction succesful for {country} with issue date {str(a)[:10]} "
-            f"and {str(b - a)[:2]} days of data"
+            f"and {(b - a).days} issue days of data"
         )
     except Exception as exc:
         extract.handle_exception(exc)
